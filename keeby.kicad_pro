@@ -629,6 +629,14 @@
     [
       "0032fa72-ac59-4218-be72-f997fa7d8d03",
       "right"
+    ],
+    [
+      "7d4d5eec-9ea4-4217-a71e-db79e44f0187",
+      "OLED_SSD1306"
+    ],
+    [
+      "7d4d5eec-9ea4-4217-a71e-db79e44f0187",
+      "OLED_SSD1306"
     ]
   ],
   "text_variables": {}
