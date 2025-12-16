@@ -2784,7 +2784,7 @@
 		(uuid 831308f3-4417-415d-8f79-e5642130caae)
 	)
 	(rectangle
-		(start 55.626 16.002)
+		(start 19.812 16.002)
 		(end 265.176 66.548)
 		(stroke
 			(width 0)
@@ -3024,7 +3024,7 @@
 		(uuid "635eaf8a-faa9-4ab5-83aa-e1249b048355")
 	)
 	(junction
-		(at 67.31 39.37)
+		(at 43.18 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63ca8162-5829-4059-a433-4ba99982be24")
@@ -3108,7 +3108,7 @@
 		(uuid "874b2a3c-9086-4eb4-8063-8d0d48c1d211")
 	)
 	(junction
-		(at 59.69 39.37)
+		(at 43.18 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "886e91e0-f082-4eec-973d-bf4898449367")
@@ -3328,12 +3328,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfc7bc6f-f838-4035-acc4-4866c249c186")
-	)
-	(junction
-		(at 72.39 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2bbeecb-054f-4b19-b199-d0087dee5484")
 	)
 	(junction
 		(at 128.27 140.97)
@@ -3559,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1090dc93-5004-40c7-9f37-379d94369fcc")
-	)
-	(wire
-		(pts
 			(xy 91.44 26.67) (xy 72.39 26.67)
 		)
 		(stroke
@@ -3759,23 +3743,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 33.02) (xy 59.69 39.37)
+			(xy 36.83 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "369e99b0-e5cc-4f85-96d0-5bececdd2809")
-	)
-	(wire
-		(pts
-			(xy 72.39 26.67) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370f68c5-adde-4d6c-a125-a1de0ecf40b2")
 	)
 	(wire
 		(pts
@@ -4059,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 59.69 50.8)
+			(xy 43.18 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4193,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 33.02) (xy 67.31 39.37)
+			(xy 36.83 41.91) (xy 43.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 43.18) (xy 67.31 39.37)
+			(xy 46.99 41.91) (xy 43.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 67.31 43.18)
+			(xy 46.99 44.45) (xy 46.99 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5109,7 +5083,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 50.8) (xy 72.39 59.69)
+			(xy 72.39 26.67) (xy 72.39 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5663,22 +5637,22 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 59.69 33.02 90)
+		(at 36.83 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8c64b257-1183-4c2a-938f-520c6eb49d67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 25.62 90)
+			(at 29.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8842,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 64.77 48.26 270)
+		(at 52.07 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8851,7 +8825,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ebbf2a-e108-435d-a8a1-2cfeec7acd42")
 		(property "Reference" "Q1"
-			(at 64.77 54.61 90)
+			(at 58.42 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8833,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 64.77 57.15 90)
+			(at 60.96 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 53.34 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 48.26 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8859,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 64.77 48.26 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +9584,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 39.37 90)
+		(at 43.18 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9618,7 +9592,7 @@
 		(dnp no)
 		(uuid "6a6c6040-2fe0-4b0f-a229-8a888dfebdc9")
 		(property "Reference" "R5"
-			(at 63.246 35.56 90)
+			(at 39.37 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9600,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 63.5 37.338 90)
+			(at 41.148 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9608,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 63.5 41.148 90)
+			(at 44.958 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 39.37 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9626,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 39.37 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
