@@ -2210,8 +2210,8 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 22.86 0)
+			(property "Reference" "U4"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2219,14 +2219,14 @@
 				)
 			)
 			(property "Value" "SuperMini nRF52840"
-				(at 0 20.32 0)
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-xp-promicroish:SuperMini_nRF52840_AH_USBup"
+			(property "Footprint" "marbastlib-xp-promicroish:SuperMini_nRF52840_AH_USBup"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -2290,7 +2290,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -19.05 8.89 0)
 					(length 2.54)
 					(name "GND"
@@ -2308,7 +2308,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -19.05 6.35 0)
 					(length 2.54)
 					(name "GND"
@@ -2470,7 +2470,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 19.05 11.43 180)
 					(length 2.54)
 					(name "GND"
@@ -2634,7 +2634,7 @@
 				)
 			)
 			(symbol "SuperMini_nRF52840_1_0"
-				(pin power_out line
+				(pin passive line
 					(at -19.05 16.51 0)
 					(length 2.54)
 					(name "GND"
@@ -2706,7 +2706,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 19.05 16.51 180)
 					(length 2.54)
 					(name "BAT+"
@@ -2724,7 +2724,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 19.05 13.97 180)
 					(length 2.54)
 					(name "BAT+"
@@ -3743,12 +3743,6 @@
 		(uuid "e72388a9-5eb7-4ba8-9867-5cbff4964813")
 	)
 	(junction
-		(at 201.93 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9128d52-1d03-4165-9117-96cb9a8b3409")
-	)
-	(junction
 		(at 139.7 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3779,12 +3773,6 @@
 		(uuid "edc0307f-c068-4cd4-acb6-744225122703")
 	)
 	(junction
-		(at 149.86 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f105bf10-f7c8-47cd-87f8-7638422d6568")
-	)
-	(junction
 		(at 205.74 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3811,6 +3799,30 @@
 	(no_connect
 		(at 45.72 52.07)
 		(uuid "1eb468a6-3dbd-4b86-aea0-b7a3e21e3e78")
+	)
+	(no_connect
+		(at 234.95 151.13)
+		(uuid "51c51ccc-b5ed-4a7c-a922-c06ebe94b731")
+	)
+	(no_connect
+		(at 259.08 118.11)
+		(uuid "5912df39-ec0c-4b22-acf0-0a1b926a624a")
+	)
+	(no_connect
+		(at 237.49 151.13)
+		(uuid "632a12f5-14f0-4e86-ad1c-6d8665811fc6")
+	)
+	(no_connect
+		(at 259.08 123.19)
+		(uuid "a2a18a42-2548-4b4e-afb8-98f119d647c0")
+	)
+	(no_connect
+		(at 259.08 133.35)
+		(uuid "b63d470c-9d9e-4d2b-92df-817d4962396d")
+	)
+	(no_connect
+		(at 184.15 81.28)
+		(uuid "ebfa1d90-5d2e-447a-93b3-3ffaea11791f")
 	)
 	(wire
 		(pts
@@ -4041,16 +4053,6 @@
 			(type default)
 		)
 		(uuid "282bc1f7-3cf5-4544-a2b6-1a52f1dc7c9f")
-	)
-	(wire
-		(pts
-			(xy 194.31 83.82) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28d1661a-0540-4c24-bbc5-85783d3eb2c6")
 	)
 	(wire
 		(pts
@@ -4884,16 +4886,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 83.82) (xy 204.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa32c1f9-f0db-4284-a476-757bc11bd2ff")
-	)
-	(wire
-		(pts
 			(xy 53.34 85.09) (xy 53.34 95.25)
 		)
 		(stroke
@@ -5344,6 +5336,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2445fcc-870a-4cc5-8007-7ca6bc1d4a7a")
+	)
+	(wire
+		(pts
 			(xy 63.5 102.87) (xy 85.09 102.87)
 		)
 		(stroke
@@ -5481,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "ee6a9c8c-20d1-459e-979a-7da168d0d0b6")
-	)
-	(wire
-		(pts
-			(xy 149.86 102.87) (xy 151.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f170c8f2-711d-4a55-a061-c568759a7c23")
 	)
 	(wire
 		(pts
@@ -6658,7 +6650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 29.21 29.21 0)
 			(effects
 				(font
@@ -9674,7 +9666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -12165,7 +12157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 152.4 183.134 0)
 			(effects
 				(font
