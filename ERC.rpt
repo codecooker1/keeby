@@ -1,0 +1,61 @@
+ERC report (2025-12-16T21:47:30+0600, Encoding UTF8)
+
+***** Sheet /
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5900 mils, 4050 mils): Horizontal Wire, length 50 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(7950 mils, 3300 mils): Horizontal Wire, length 100 mils
+
+***** Sheet /left/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2100 mils, 1050 mils): Symbol D60 Pin 4 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8700 mils, 4850 mils): Symbol U4 Pin 3 [GND, Power output, Line]
+    @(8700 mils, 4950 mils): Symbol U4 Pin 4 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8700 mils, 4950 mils): Symbol U4 Pin 4 [GND, Power output, Line]
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(10200 mils, 4550 mils): Symbol U4 Pin 29 [BAT+, Power output, Line]
+    @(10200 mils, 4550 mils): Symbol U4 Pin 29 [BAT+, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(10200 mils, 4750 mils): Symbol U4 Pin 14 [GND, Power output, Line]
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(10200 mils, 4950 mils): Symbol U4 Pin 16 [3V3, Power output, Line]
+    @(10200 mils, 4950 mils): Symbol U4 Pin 16 [3V3, Power output, Line]
+
+***** Sheet /right/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2100 mils, 1050 mils): Symbol D60 Pin 4 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8700 mils, 4850 mils): Symbol U4 Pin 3 [GND, Power output, Line]
+    @(8700 mils, 4950 mils): Symbol U4 Pin 4 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8700 mils, 4950 mils): Symbol U4 Pin 4 [GND, Power output, Line]
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(10200 mils, 4750 mils): Symbol U4 Pin 14 [GND, Power output, Line]
+    @(8700 mils, 4550 mils): Symbol U4 Pin 28 [GND, Power output, Line]
+
+***** Sheet /left/OLED_SSD1306/
+
+***** Sheet /right/OLED_SSD1306/
+
+ ** ERC messages: 13  Errors 11  Warnings 2
