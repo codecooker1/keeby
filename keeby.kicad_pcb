@@ -199,11 +199,11 @@
 	(net 80 "unconnected-(SW61-C-Pad3)")
 	(net 81 "VBAT")
 	(net 82 "unconnected-(U3-P1.07-LF-Pad27)")
-	(net 83 "LED_PWR")
-	(net 84 "unconnected-(U3-P0.06-Pad1)")
-	(net 85 "unconnected-(U3-BAT+-Pad13)")
-	(net 86 "unconnected-(U3-RST-Pad15)")
-	(net 87 "unconnected-(U3-P0.02-LF-Pad19)")
+	(net 83 "unconnected-(U3-P0.06-Pad1)")
+	(net 84 "unconnected-(U3-BAT+-Pad13)")
+	(net 85 "unconnected-(U3-RST-Pad15)")
+	(net 86 "unconnected-(U3-P0.02-LF-Pad19)")
+	(net 87 "LED_PWR")
 	(footprint "marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
 		(layer "F.Cu")
 		(uuid "03e55d56-70e8-4cd1-b7b6-3c75e838e698")
@@ -212,7 +212,7 @@
 		(property "Reference" "SW21"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "141d9c81-7f7a-41fd-a403-6e4c31f4a80b")
+			(uuid "06ced8e4-2b14-4b67-8e63-dfbb49768db7")
 			(effects
 				(font
 					(size 1 1)
@@ -223,7 +223,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "ce042615-993e-4fae-b6cb-6eeec201a69d")
+			(uuid "1ad6bcac-1ee6-457f-8615-749ebc7f082b")
 			(effects
 				(font
 					(size 1 1)
@@ -235,7 +235,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c46156d9-0b4d-44e7-8635-e31dbe97b763")
+			(uuid "14c184cb-b13b-4966-b740-ee393106b534")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +247,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac65bf95-4b7d-4895-be3f-c6a7d3e6ac5e")
+			(uuid "a6451ef9-389d-46c5-a439-fec82482d90c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1032,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/07f5f795-d047-4870-962d-579088aba4c6")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -1314,7 +1313,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/fd261161-47c6-4db9-9b68-7b8c38d260ed")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -1549,7 +1547,7 @@
 		(property "Reference" "U3"
 			(at -9.14 16.24 0)
 			(layer "F.SilkS")
-			(uuid "4798d104-e523-4100-8617-8b50fe4f69ff")
+			(uuid "03ccb86a-ad51-41f8-8d3f-504579cc8cf3")
 			(effects
 				(font
 					(size 1 1)
@@ -1562,7 +1560,7 @@
 			(at 0 0.635 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a4c27067-f216-40d3-a1de-ab169d460176")
+			(uuid "9b094bd9-f54d-4482-a9b1-58b64ded9c4b")
 			(effects
 				(font
 					(size 1 1)
@@ -1575,7 +1573,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27c55786-5005-4abe-b100-afb9736dcaf7")
+			(uuid "bbe93915-4298-407b-9697-22a4510e087c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1586,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acc0f0b3-f847-4bbd-ae57-0ce25928b17f")
+			(uuid "17f70563-f4e6-44ad-bc53-73a73c4ede47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1717,7 @@
 			(drill 1)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 84 "unconnected-(U3-P0.06-Pad1)")
+			(net 83 "unconnected-(U3-P0.06-Pad1)")
 			(pinfunction "P0.06")
 			(pintype "bidirectional")
 			(uuid "2316d1ed-54e7-4d49-9ec9-e14b87ae8172")
@@ -1855,7 +1853,7 @@
 			)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 85 "unconnected-(U3-BAT+-Pad13)")
+			(net 84 "unconnected-(U3-BAT+-Pad13)")
 			(pinfunction "BAT+")
 			(pintype "power_in+no_connect")
 			(uuid "fc8fd8ac-b6f7-42a2-95df-0d676d0922a8")
@@ -1878,7 +1876,7 @@
 			(drill 1)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 86 "unconnected-(U3-RST-Pad15)")
+			(net 85 "unconnected-(U3-RST-Pad15)")
 			(pinfunction "RST")
 			(pintype "bidirectional+no_connect")
 			(uuid "7f146a81-b009-4f83-bd02-faa1a8b3543c")
@@ -1922,7 +1920,7 @@
 			(drill 1)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 87 "unconnected-(U3-P0.02-LF-Pad19)")
+			(net 86 "unconnected-(U3-P0.02-LF-Pad19)")
 			(pinfunction "P0.02-LF")
 			(pintype "bidirectional")
 			(uuid "905b86d3-4890-4e45-ad9c-d93558b733d6")
@@ -1999,7 +1997,7 @@
 			(drill 1)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 83 "LED_PWR")
+			(net 87 "LED_PWR")
 			(pinfunction "P1.02-LF")
 			(pintype "bidirectional")
 			(uuid "f39d5ed6-1201-425d-94cf-5a707960c58a")
@@ -2081,7 +2079,7 @@
 		(property "Reference" "SW7"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "c5ee9a6d-a91a-45c0-8744-b1aa06002656")
+			(uuid "4a3eda20-cd83-4c88-b819-b38d37664c90")
 			(effects
 				(font
 					(size 1 1)
@@ -2092,7 +2090,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "f87e73ee-e14f-4cf6-83ac-429af12ec8ab")
+			(uuid "50019e5d-f55d-4d78-abdf-f5212cf23887")
 			(effects
 				(font
 					(size 1 1)
@@ -2104,7 +2102,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "595972b5-0e6b-4b64-b83e-11d5d43cd95e")
+			(uuid "27c62f20-4919-4f2b-aaf4-8c10d36b51ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2114,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4439b95-cf4a-4ef4-9784-f799988a64c7")
+			(uuid "bb21a767-9fea-4cc1-a8bb-004ecc1f85aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2899,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/d0ab9958-3f0c-45ea-beb5-36673e72b304")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -3136,7 +3133,7 @@
 		(property "Reference" "SW14"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "af82a47a-67fe-4cec-b1ab-494735fd088e")
+			(uuid "e7bf1320-00d8-4a17-8a71-aec7f048a7ea")
 			(effects
 				(font
 					(size 1 1)
@@ -3147,7 +3144,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "63146e6a-288b-4ec9-aab3-268f370cfe57")
+			(uuid "33f0ed07-e60e-4da6-a85c-d5a0b3642e32")
 			(effects
 				(font
 					(size 1 1)
@@ -3159,7 +3156,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f420a53d-e9bf-4b81-922a-040e76f3a208")
+			(uuid "e9915d33-ff1a-408b-8e03-56afb2d660e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3168,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0b18fe2-9fd1-439f-ac8e-3870f8cc6f06")
+			(uuid "17aa2066-1bd7-4c3d-addf-310895c1e253")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3906,7 @@
 		(property "Reference" "SW22"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "edcfa88e-7b53-426d-a648-9b422175e7bf")
+			(uuid "0742d640-8206-4765-973d-b8efbabc6b24")
 			(effects
 				(font
 					(size 1 1)
@@ -3920,7 +3917,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "1c4af8d0-4502-452e-ac79-b6b319c4d002")
+			(uuid "810668d1-7d10-4bcf-8031-226a0b048e73")
 			(effects
 				(font
 					(size 1 1)
@@ -3932,7 +3929,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ba24f75-fb8f-41c4-a555-db53fd0bb00b")
+			(uuid "daf284d0-16a8-4c8e-8eec-5f9c705f1ac5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3941,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b87b613-41b8-4ff3-8c3d-a89703786cf5")
+			(uuid "d6cac992-9a24-4efe-8056-4efacf9b9160")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5465,7 @@
 		(property "Reference" "SW4"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "c355b7ca-bed2-4856-aa6a-6d5d430956c2")
+			(uuid "d62d051a-bbfd-4c39-b76e-c77f7f148886")
 			(effects
 				(font
 					(size 1 1)
@@ -5479,7 +5476,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "3f083246-c753-459b-b6fa-4724f0e1d686")
+			(uuid "fdebc771-1d3d-4f90-a6e4-2d312d8a801b")
 			(effects
 				(font
 					(size 1 1)
@@ -5491,7 +5488,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d19c1574-10dc-4af9-af51-da4d87f0bed0")
+			(uuid "ac6181cd-f370-4e72-98c3-22d06d562c74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5500,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cda66913-b3f2-481d-b46b-8652dd1dfb3b")
+			(uuid "96dfd82b-9a2e-4e58-8f14-da259ba3bf0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6238,7 @@
 		(property "Reference" "SW8"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "4a01e649-8793-46fa-ae85-865363f6005a")
+			(uuid "681ba82f-e0c1-4a2a-8382-b54604e21618")
 			(effects
 				(font
 					(size 1 1)
@@ -6252,7 +6249,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "db8faf8c-eadb-4ff1-8c0c-758f15a73741")
+			(uuid "916b486b-2319-4003-9e22-e44481fc3aed")
 			(effects
 				(font
 					(size 1 1)
@@ -6264,7 +6261,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ccb4fb0-61ba-4ba3-bcd3-2ddcf31f07f7")
+			(uuid "a0ec96df-fe29-40d6-b2f6-d6d95001b554")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +6273,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb8f7ef0-9fde-4adc-9654-485be62f1c4b")
+			(uuid "af89ac2f-a913-409a-b852-58f05e8b27a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7011,7 @@
 		(property "Reference" "SW5"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "0da4afc9-642b-4408-b0ab-0b365982c4ad")
+			(uuid "fc52c6c7-0d81-4825-b57e-be889327a3fa")
 			(effects
 				(font
 					(size 1 1)
@@ -7025,7 +7022,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "b6a18c7b-c4df-4d46-a203-f661ac679d12")
+			(uuid "af5a6a93-dad9-436a-a459-7fd72b1c3199")
 			(effects
 				(font
 					(size 1 1)
@@ -7037,7 +7034,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0696568d-f24d-46eb-976a-8312cf9a87ff")
+			(uuid "eb4645ac-907a-4024-b4c4-60a411ae76c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7046,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "201483aa-a71e-498d-9400-9975a8564be6")
+			(uuid "5f80578f-28ed-4355-98e3-aa12355332ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7831,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/d367a204-d0cb-46e8-bae1-6329d0d1c181")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -8069,7 +8065,7 @@
 		(property "Reference" "SW25"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "c1eea718-7349-4b3d-9285-d974f0dbcc50")
+			(uuid "238efd3d-4693-43b7-baa9-6889769f169b")
 			(effects
 				(font
 					(size 1 1)
@@ -8080,7 +8076,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "9b1b0424-fb78-44be-8ac4-e18e0a26e3c0")
+			(uuid "c896adcb-1ab5-4e7c-82a4-128dd601f281")
 			(effects
 				(font
 					(size 1 1)
@@ -8092,7 +8088,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a4dd937-d07c-4da4-ab13-0774d72ef8a7")
+			(uuid "2b56fc56-c6c0-4b9f-b119-bf2ce1f948fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8100,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74b65239-3489-454f-81d4-c042846c78c5")
+			(uuid "515cdd39-3101-48da-8ecd-83f8b461c760")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +8838,7 @@
 		(property "Reference" "SW24"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "abb2bb7b-3b38-4a92-81b0-c91efecfd9f2")
+			(uuid "343d55d4-a496-4c58-9b0b-b1e7c8c3509c")
 			(effects
 				(font
 					(size 1 1)
@@ -8853,7 +8849,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "21df101c-453e-4b07-a2d0-ebe60648cca2")
+			(uuid "7663299f-226e-4625-918f-ab191d3bbed7")
 			(effects
 				(font
 					(size 1 1)
@@ -8865,7 +8861,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c468baf5-6a9e-4ff9-84e4-e9b79e7fa62f")
+			(uuid "84a78df6-cc7a-4e63-a86f-24f9637a7833")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8873,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be64ec94-8818-4b23-bddc-b4125afa2f24")
+			(uuid "1063e98d-c27d-4b98-b6c5-5260221f9e03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,7 +9611,7 @@
 		(property "Reference" "SW61"
 			(at 0 -3.2 90)
 			(layer "F.SilkS")
-			(uuid "fdcedbeb-b3d3-4157-a32a-88ff12fb989a")
+			(uuid "73fe67cd-7fdb-46ad-8974-3bda192add5a")
 			(effects
 				(font
 					(size 1 1)
@@ -9626,7 +9622,7 @@
 		(property "Value" "SW_SPDT"
 			(at 0 4.25 90)
 			(layer "F.Fab")
-			(uuid "c06ff5a1-a44e-4377-a0c1-3eae110b4c04")
+			(uuid "7cac2b3b-23ef-44bb-bf61-3b921ef38079")
 			(effects
 				(font
 					(size 1 1)
@@ -9639,7 +9635,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b093a3ed-c775-4c43-9e98-8b32166d788b")
+			(uuid "f8e2583c-951c-4cb1-8386-936dd3968a16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9648,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fc1bc74-3e24-4c14-a312-79628ebb697c")
+			(uuid "a2e4c8c6-0efd-4b4e-99b1-1a33f7167136")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10084,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/cdb06ad7-c7ca-4188-aaea-804294f9cf2d")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -10323,7 +10318,7 @@
 		(property "Reference" "SW17"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "c4626197-1064-4d44-9d1e-ac7a949351b9")
+			(uuid "53428848-a474-4f18-9513-789a1cf9e02c")
 			(effects
 				(font
 					(size 1 1)
@@ -10334,7 +10329,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "e2f3a5d5-bb10-4ba4-bf72-c3f1155adeb2")
+			(uuid "2a571f31-b9c0-4d7a-b09f-a9b52927d306")
 			(effects
 				(font
 					(size 1 1)
@@ -10346,7 +10341,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef1ed083-a3b8-4a1e-8a46-2d541b200751")
+			(uuid "2c24d8b7-fdaf-4d77-ab69-7b5fc181186f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10353,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "128684b0-6104-4841-a9fe-b656aaec6040")
+			(uuid "a3190547-fdec-48e0-980d-066a054177be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,7 +11091,7 @@
 		(property "Reference" "SW28"
 			(at 5 7.4 165)
 			(layer "F.SilkS")
-			(uuid "98fc16dc-2f2f-4ceb-8d4d-882126b29ac3")
+			(uuid "7657d872-e58a-4f09-a410-9c26680cb006")
 			(effects
 				(font
 					(size 1 1)
@@ -11107,7 +11102,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 165)
 			(layer "F.Fab")
-			(uuid "37cf06bb-1470-4c99-9ead-01dac802878a")
+			(uuid "cb5af568-654e-4081-bb6f-c09e1aad2f35")
 			(effects
 				(font
 					(size 1 1)
@@ -11119,7 +11114,7 @@
 			(at 0 0 165)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9da967f7-48eb-44eb-87e9-ce0a0453d951")
+			(uuid "2e767dc3-7f5f-4bbd-9340-83a77b11744b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11126,7 @@
 			(at 0 0 165)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f36808c6-e496-4ee9-acd0-2d3381676d6d")
+			(uuid "677bf5ff-d036-49cd-8313-893fe34d3ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11873,7 +11868,7 @@
 		(property "Reference" "SW13"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "33f2dfd9-eb20-4188-981a-c75cf0a97687")
+			(uuid "0c1b4cde-7850-4fd2-ab6b-7834f865a5dc")
 			(effects
 				(font
 					(size 1 1)
@@ -11884,7 +11879,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "ac8c1c8d-2688-4465-b813-28c8deaa8587")
+			(uuid "82d7355d-deaa-4b0a-bdaf-4e15d368c198")
 			(effects
 				(font
 					(size 1 1)
@@ -11896,7 +11891,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f033dc0-2899-4729-b085-94052acbf2c6")
+			(uuid "03253317-067f-4ca7-b3d2-c68e3bf3058b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11903,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0c6f6e5-6df2-44d3-9b55-46f4a03b859d")
+			(uuid "a4a52fb9-c37f-46fc-8621-85313c0445d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,7 +12688,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/06f561a5-5e78-4840-9b6f-87aaa808c34e")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -12975,7 +12969,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/cb3aa01b-4678-4724-a266-621029e479ae")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -13211,7 +13204,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.05 90)
 			(layer "F.SilkS")
-			(uuid "8b15639a-45fd-4911-99a4-f67e9aed083f")
+			(uuid "5c39e404-31e3-4a93-b0af-e86b193be2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -13222,7 +13215,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.05 90)
 			(layer "F.Fab")
-			(uuid "057300a6-3a96-4c82-96c7-ec94faf4e02f")
+			(uuid "bf3e52de-8667-45a8-80ce-31044b446960")
 			(effects
 				(font
 					(size 1 1)
@@ -13234,7 +13227,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00cdb2bd-b4a6-4cd3-83a9-e081d224ba67")
+			(uuid "8797d4ec-0425-48ae-aa8f-ed820f426c48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13246,7 +13239,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c0a8eda-d234-40a3-9015-30de4d466dd1")
+			(uuid "f283cf5a-6891-42a7-a48f-ff36b58569bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,7 +13302,7 @@
 		(property "Reference" "SW10"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "593552df-01c0-49c8-9b62-85e73be15402")
+			(uuid "efc06441-41e5-42ab-a4c5-2dd3290fc62e")
 			(effects
 				(font
 					(size 1 1)
@@ -13320,7 +13313,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "db4ce6bc-f4af-46d9-a465-afb912233f2f")
+			(uuid "f382c1cb-87c8-4312-922d-859eab24f957")
 			(effects
 				(font
 					(size 1 1)
@@ -13332,7 +13325,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "142b2d20-586c-466f-9f6c-4083df1836f8")
+			(uuid "ef239f0f-3977-4964-bcc1-528879108fcf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13337,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4ce3cf1-d74a-426c-b599-97e8cd2db018")
+			(uuid "53dca407-beee-462b-b9cb-a877f2ebef03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14081,7 +14074,7 @@
 		(property "Reference" "J1"
 			(at 1.9 5.91 0)
 			(layer "F.SilkS")
-			(uuid "a55bf40e-421d-451f-a1f9-070b56e33e88")
+			(uuid "095014dd-22a9-441c-abef-728f66a45e44")
 			(effects
 				(font
 					(size 1 1)
@@ -14092,7 +14085,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 18.5 14 90)
 			(layer "F.Fab")
-			(uuid "5391e84d-057b-4594-9ad5-d64df6358e24")
+			(uuid "6f51e9a2-d51c-403c-b9ac-88910cf20ce2")
 			(effects
 				(font
 					(size 1 1)
@@ -14104,7 +14097,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d77e3a5-6405-416b-a18d-07e26aaa7849")
+			(uuid "a4cc7681-1490-4bdb-84bd-a5daf6fda11b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14109,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5976c6a5-8d59-4e34-bf7e-ff4971d80d1f")
+			(uuid "94a8e730-0c2b-4db4-a7ed-dd736996c5c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,7 +14378,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/e66e9373-dab0-449d-a364-f9e94d8ab943")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -14667,7 +14659,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/7d106164-04e6-40da-9dcf-7dd490056c81")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -14903,7 +14894,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.05 90)
 			(layer "F.SilkS")
-			(uuid "3d5731b9-014c-4def-a669-39c6d312579d")
+			(uuid "4e60e17d-f149-492f-90f6-e23188310ef5")
 			(effects
 				(font
 					(size 1 1)
@@ -14914,7 +14905,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.05 90)
 			(layer "F.Fab")
-			(uuid "efe8495b-4a70-4a0f-9052-af44e52457a5")
+			(uuid "0bd9a955-1c3f-4ce9-bdde-bb19af583ad9")
 			(effects
 				(font
 					(size 1 1)
@@ -14926,7 +14917,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ce65f1b-90ff-40f1-90a2-2a29ad98bc98")
+			(uuid "7efa3183-a7c3-48f3-9eae-9e679365acc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +14929,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77620a46-4414-4d55-8176-af307aba479a")
+			(uuid "d64ceea7-49cc-4bcb-bfa3-821143e6af76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15039,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/e9a49148-49e8-42c1-8b3a-99ed2c12ac07")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -15330,7 +15320,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/73c778b7-5b73-4f18-886b-af61b247c787")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -15566,7 +15555,7 @@
 		(property "Reference" "SW59"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "de48e86b-4ed1-4212-bb89-4d2ad49fd3bf")
+			(uuid "19ede172-61e1-44df-bba1-b9c8a15713eb")
 			(effects
 				(font
 					(size 1 1)
@@ -15577,7 +15566,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
-			(uuid "96274942-f2eb-4a86-ae15-fa41aa7a9957")
+			(uuid "ae6ef579-e765-4c05-8edc-14d2fa5773de")
 			(effects
 				(font
 					(size 1 1)
@@ -15590,7 +15579,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40a1d9be-380a-425d-9af9-09fd329154d9")
+			(uuid "bdc239cc-4bb9-453e-80b1-32a750b97a01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15592,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b82277d-3b38-42cb-a0e9-5c94c3631b4f")
+			(uuid "3986bb8d-5984-4328-8283-6f9c1aeb4b5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15975,7 +15964,7 @@
 		(property "Reference" "SW26"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "33685fe1-155f-4145-8aec-4f02134ed215")
+			(uuid "298d5aa6-ece5-4988-b763-d6a7e9dcf788")
 			(effects
 				(font
 					(size 1 1)
@@ -15986,7 +15975,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "5775d1e3-69c0-427d-891f-2c36bc7a1dc7")
+			(uuid "a8042d9a-b28f-40a8-8066-d6c53210e62d")
 			(effects
 				(font
 					(size 1 1)
@@ -15998,7 +15987,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb1dab33-fcda-41a8-9f0d-98ab68857710")
+			(uuid "f48ebd15-c25c-41d7-848f-add4292db7a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16010,7 +15999,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0508a3ae-a97b-41c6-a08f-d379b71b1e67")
+			(uuid "169da321-bbc7-4ca0-981d-fffcad19a1a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16748,7 +16737,7 @@
 		(property "Reference" "SW11"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "f673ec0e-f3f3-4542-919e-b6dbd34c973a")
+			(uuid "51136cb0-25ab-4f5e-96ee-f7dbd58efde1")
 			(effects
 				(font
 					(size 1 1)
@@ -16759,7 +16748,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "a6feb44c-4aca-4ca5-a9fe-7ee5fed4f098")
+			(uuid "61bb881b-8e59-4258-88e3-60413c4e459f")
 			(effects
 				(font
 					(size 1 1)
@@ -16771,7 +16760,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0eb5331-ae3b-4f98-a153-1ec6243fe329")
+			(uuid "063eea27-ea90-4724-99f9-aee05dc3867b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16783,7 +16772,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6335d547-a676-441e-8692-429623d46e43")
+			(uuid "149b7e40-1d39-407d-859e-e82c91683419")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17521,7 +17510,7 @@
 		(property "Reference" "SW27"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "04c4e89d-2d17-4853-9f7b-f8709a7d63c9")
+			(uuid "5c7e21f6-50cc-4765-9e66-17004722638c")
 			(effects
 				(font
 					(size 1 1)
@@ -17532,7 +17521,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "f92f4ee1-cf39-4615-98e4-bafcb1b57cd1")
+			(uuid "82e1f11c-a749-4dc6-9c4c-bf65ef68c39f")
 			(effects
 				(font
 					(size 1 1)
@@ -17544,7 +17533,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1b9b71d-087a-4663-b125-154e3b16b227")
+			(uuid "5cd41b35-040b-4f16-9c48-8e30c8e37d67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,7 +17545,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "814604f9-96bd-4a4f-bc85-17b0e5b6c415")
+			(uuid "e1bb69a3-df30-440e-8bd9-3df6fa281816")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +18330,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/42ee5777-10be-46de-81a4-fdc1104654c1")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -18623,7 +18611,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/4d9ecaf4-98f8-4e01-b76c-5e2b174aa4f0")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -18858,7 +18845,7 @@
 		(property "Reference" "SW12"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "fa3e73bf-8cfe-4598-840b-dfd298a22864")
+			(uuid "594cb28c-311c-444a-8a47-6b8d0b04aeeb")
 			(effects
 				(font
 					(size 1 1)
@@ -18869,7 +18856,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "1ae5612d-f6ce-4c28-9fe8-f33482c3a24f")
+			(uuid "9de9ab42-66bd-48f5-9b60-64f9277b9355")
 			(effects
 				(font
 					(size 1 1)
@@ -18881,7 +18868,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2413fce6-e5c7-44ac-9750-fb787c4dce0d")
+			(uuid "aac59cb6-76cc-446c-9460-964ab73f6280")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18893,7 +18880,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db1f2730-545d-47b5-8108-7030d675726e")
+			(uuid "fc54c2ed-511f-46c2-bdb8-b0ed4c906b03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19631,7 +19618,7 @@
 		(property "Reference" "SW23"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "990ed2a0-fe38-4eb3-a81f-818941324d12")
+			(uuid "dcbadf4d-2717-4b54-8580-63115a1b4cc2")
 			(effects
 				(font
 					(size 1 1)
@@ -19642,7 +19629,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "f2271d02-0f11-4660-a772-ae9a7e3df983")
+			(uuid "891a5d4d-f683-4fe6-be8f-880ce6826350")
 			(effects
 				(font
 					(size 1 1)
@@ -19654,7 +19641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12e0d977-3659-4883-92d7-8f568069cefd")
+			(uuid "375f8ee9-fd0b-49e3-87cb-078f25b142be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19666,7 +19653,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41a17fa3-7596-405b-8aca-3e4d947ecbec")
+			(uuid "d4bd1968-85a0-4116-bf9d-1e006ddb95ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20451,7 +20438,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/c689f5ae-47bf-43a4-8c11-3d5832346501")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -20733,7 +20719,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/34089ea3-317f-4950-b16e-f3886f0ebb19")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -20968,7 +20953,7 @@
 		(property "Reference" "SW15"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "c290f65b-e1f5-4c78-ae5b-3c05d8bd0fa7")
+			(uuid "39360696-a82f-4a81-bf22-cfa841b1175e")
 			(effects
 				(font
 					(size 1 1)
@@ -20979,7 +20964,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "2b361bd2-fa12-4dda-82b3-80923b2b5dc5")
+			(uuid "95da5a22-efdd-4a65-b6ab-3fb889e9c0b6")
 			(effects
 				(font
 					(size 1 1)
@@ -20991,7 +20976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65b6b2c1-d0c0-4cae-8d60-1edec12f9f3e")
+			(uuid "df6d4d22-5f61-4808-8b7b-f1405bf3b529")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21003,7 +20988,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1fa4ff5-a15f-4bb2-8bc2-89e0bf32db80")
+			(uuid "29c4d64b-1dbd-4b38-b6fb-cc4337f7d733")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21788,7 +21773,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/8f121f64-df9d-429c-bbf2-01cff0cb9a30")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -22070,7 +22054,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/a38e59ca-9be7-4d20-81ae-0fc55e8acb97")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -22305,7 +22288,7 @@
 		(property "Reference" "SW16"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "758acf4d-4537-407d-bc32-81fb2ae5af23")
+			(uuid "b38ddada-025c-43a4-b58c-ea53f7ece653")
 			(effects
 				(font
 					(size 1 1)
@@ -22316,7 +22299,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "affac002-1593-46e0-ac57-57e844f6a9a0")
+			(uuid "0ccbb423-48ab-47ec-916e-46ce0b8c8a98")
 			(effects
 				(font
 					(size 1 1)
@@ -22328,7 +22311,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "946c1215-dffe-4da0-8827-c29b544a5f86")
+			(uuid "0764c776-653a-48ad-b42a-ffad8e290193")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22340,7 +22323,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57f60469-c02d-478b-a84b-537edfa776f3")
+			(uuid "24ca429b-8b17-4b95-9ce1-977584645313")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23125,7 +23108,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/822cfc60-9355-44e4-94d7-9a809c2da173")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -23360,7 +23342,7 @@
 		(property "Reference" "SW29"
 			(at 5 7.4 150)
 			(layer "F.SilkS")
-			(uuid "451f84cf-7e03-4a12-96e1-a3fb227fbc59")
+			(uuid "a5e9e86e-02f8-435c-b095-41189f25c903")
 			(effects
 				(font
 					(size 1 1)
@@ -23371,7 +23353,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 150)
 			(layer "F.Fab")
-			(uuid "580f4fb3-35af-40c2-ac92-677262614831")
+			(uuid "ab3e3b68-4603-4af2-a42a-9c20de92fb6b")
 			(effects
 				(font
 					(size 1 1)
@@ -23383,7 +23365,7 @@
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96dff259-920e-41a9-97b8-bc32d1b80add")
+			(uuid "08475d7d-d293-48bf-ba7b-ee88278ac86f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23395,7 +23377,7 @@
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8f64e1c-57d3-4c3f-b0e2-1b00a262de3f")
+			(uuid "e7ed24b2-18fc-42f5-a423-461aa27b7a96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24184,7 +24166,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/aeeb031a-4b00-453b-8cc3-11ba393e2911")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -24466,7 +24447,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/03b87e7f-65bd-4ab0-a1f0-432edb83f776")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -24701,7 +24681,7 @@
 		(property "Reference" "SW6"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "2e9c44a8-3fb4-4f56-a47c-cb9671844fd4")
+			(uuid "14af41e3-7cde-4cfb-a7e5-d31688000ed4")
 			(effects
 				(font
 					(size 1 1)
@@ -24712,7 +24692,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "bb840d5c-1a83-43c7-bc1c-80326a980c77")
+			(uuid "cba1bb91-7af5-4d0b-9294-1b554b368435")
 			(effects
 				(font
 					(size 1 1)
@@ -24724,7 +24704,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5be2731c-0db9-4822-af05-9ee8279e8541")
+			(uuid "f7d2b4bd-b1f3-46a5-b70b-5c86ebc58c97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24736,7 +24716,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec397e51-7af8-4f56-ac26-7df1350d5c58")
+			(uuid "5930736d-6b85-4814-b441-55eeaab559d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25521,7 +25501,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/877829e2-82d1-4542-83d0-1eb93282e32c")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -25756,7 +25735,7 @@
 		(property "Reference" "SW3"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "f07b539c-20ac-4b15-ace7-dd6b0daa736f")
+			(uuid "3c88bd2f-9e8c-4c7d-be95-1128170d9aac")
 			(effects
 				(font
 					(size 1 1)
@@ -25767,7 +25746,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "9ca16ef6-5a3f-4cfa-a0c8-003ab5ad985c")
+			(uuid "742d65c9-c390-4b2b-935f-213b938de67c")
 			(effects
 				(font
 					(size 1 1)
@@ -25779,7 +25758,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bc6e278-32ac-42df-bab3-58f2e3a03125")
+			(uuid "22648876-df15-4647-ae72-2a78bf3602a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25791,7 +25770,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a35d4c8-deac-4fbd-96a9-813ad0e8a56b")
+			(uuid "188f939d-bc72-4bd7-8fc8-e184a960e762")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26529,7 +26508,7 @@
 		(property "Reference" "SW19"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "a96c7fa8-93db-4f4f-b8fa-3d975a0981c9")
+			(uuid "092f715f-9c34-4d93-b718-a128cde3f113")
 			(effects
 				(font
 					(size 1 1)
@@ -26540,7 +26519,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "66318a32-eaa9-4283-8cd7-36be91074a4c")
+			(uuid "78aab8e0-315a-4d43-9d64-4c92a45adac9")
 			(effects
 				(font
 					(size 1 1)
@@ -26552,7 +26531,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0fb2a67-7cc5-4dec-8818-0ca3e1666a29")
+			(uuid "6f6670b8-215e-483c-bf5d-5b493b94412c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26564,7 +26543,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7edc3309-87ec-45ec-af29-a9972dd18349")
+			(uuid "de56e060-27e7-4853-a370-3e4e66611931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27302,7 +27281,7 @@
 		(property "Reference" "SW20"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "4547696f-51e1-4767-b402-a74e787465a1")
+			(uuid "1922d032-e8c1-4929-ad72-16df3ef801c9")
 			(effects
 				(font
 					(size 1 1)
@@ -27313,7 +27292,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "5054c95f-13a7-49bb-8a15-8f0c9b80fdfa")
+			(uuid "3e8acd08-30ba-4cf4-9a8d-218ca15946c8")
 			(effects
 				(font
 					(size 1 1)
@@ -27325,7 +27304,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5476f935-8e88-4ac3-81f1-cda0b80b94e1")
+			(uuid "b941a770-4e96-45b5-a921-67154a768263")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27337,7 +27316,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02ab5d0e-fdcc-4875-b18a-66372dcf1adb")
+			(uuid "88949831-bf23-45f3-9535-f170c99723ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28075,7 +28054,7 @@
 		(property "Reference" "SW9"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "0559969a-9a8c-4d6f-8adb-e2dc9d63d59b")
+			(uuid "b925e55f-440d-4226-8fc3-2855e8843d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -28086,7 +28065,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "6af9c3e8-a653-4961-b3fe-486dd384b377")
+			(uuid "8f9bd8bf-8d43-406c-81d8-8fd25b42cef1")
 			(effects
 				(font
 					(size 1 1)
@@ -28098,7 +28077,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b28da14-edcf-4473-bd0c-385a501dfcc8")
+			(uuid "5de7f80e-5588-498a-a2c9-d4d54c296e8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28110,7 +28089,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "661cd428-8374-43e1-9009-def160cb8024")
+			(uuid "b404081f-9e71-4e77-a5fc-e66826569b08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28849,7 +28828,7 @@
 		(property "Reference" "H7"
 			(at 0 -3.05 90)
 			(layer "F.SilkS")
-			(uuid "406a017e-27ca-4637-a296-5f9b740ae2eb")
+			(uuid "e60ccb3e-6b12-4fba-bca3-8220fe077805")
 			(effects
 				(font
 					(size 1 1)
@@ -28860,7 +28839,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.05 90)
 			(layer "F.Fab")
-			(uuid "9b00bafd-6d1b-4ecd-9cff-5a4abec4d425")
+			(uuid "cd37caa7-fda2-4f3e-9e2f-fceec37b1fa8")
 			(effects
 				(font
 					(size 1 1)
@@ -28872,7 +28851,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49edbd38-7f5e-42a1-9033-c25383a860df")
+			(uuid "9606b4ea-8d6e-4284-85be-c21c7693d285")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28884,7 +28863,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da2aed1-4baa-4d1e-b216-46342e5bbdc8")
+			(uuid "bcc6b36f-1d71-4bad-a099-2810b0847e10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28947,7 +28926,7 @@
 		(property "Reference" "SW18"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "a85f93b5-c59e-4c38-9fcb-5a4eeb19ec38")
+			(uuid "874b95c9-c499-4bc7-bfa9-0398809c0722")
 			(effects
 				(font
 					(size 1 1)
@@ -28958,7 +28937,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "8ed09cf4-a151-4df0-bd1c-0c162bb45954")
+			(uuid "345a737e-5013-4ea6-9267-c5014aeb76c8")
 			(effects
 				(font
 					(size 1 1)
@@ -28970,7 +28949,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d011f23d-bff3-49b0-80e1-38f6fe882c9a")
+			(uuid "33e3dd92-8d76-4e2e-b4d8-f001d3a9af0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28982,7 +28961,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c75e1cbb-3ed0-4017-89aa-87d42aa62010")
+			(uuid "9f254590-dfaf-4438-9bc8-528c030936f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29767,7 +29746,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/36f6b6a0-24ed-4fd4-875c-6593d6ca4612")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -30049,7 +30027,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/afcd2722-9159-4b64-a9ba-06f363efa75b")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -30331,7 +30308,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/9ab7dfb3-832c-4af0-a554-6ecc1ec23d64")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -30613,7 +30589,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/56e188cd-e02e-4dcb-9c4e-d8e8a5f43af2")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -30895,7 +30870,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/7528507a-04ff-4548-9415-452297f0eb33")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -31177,7 +31151,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/758cc461-f142-4d7b-be7c-700c95512b43")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -31412,7 +31385,7 @@
 		(property "Reference" "SW2"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "255fda0b-634f-433a-b59f-9544e1e26f6d")
+			(uuid "ae03302c-154d-4447-993e-fefc4bbba6fc")
 			(effects
 				(font
 					(size 1 1)
@@ -31423,7 +31396,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "7799eafa-313c-42ac-842c-3fe91d4dffe4")
+			(uuid "8307c24e-0cf5-4cf6-8c8b-29589a6f023e")
 			(effects
 				(font
 					(size 1 1)
@@ -31435,7 +31408,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61e3ecb2-9161-4466-ba37-92209651342e")
+			(uuid "5ecc9113-8dbe-4c7f-adea-eabdbecb11cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31447,7 +31420,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bb2a14e-23b9-4be0-a6e1-e57e6af495e2")
+			(uuid "137c3837-ff50-40e6-915a-9c47b74e00af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32185,7 +32158,7 @@
 		(property "Reference" "SW1"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
-			(uuid "0b70a69e-9f9d-48fa-85b1-ca755337b793")
+			(uuid "7fa3d15d-a33d-4dd5-a1c9-eb27267ecd3b")
 			(effects
 				(font
 					(size 1 1)
@@ -32196,7 +32169,7 @@
 		(property "Value" "SW_Push"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "0e1ac6ca-0ac0-4e8f-b1b1-c4424da87bbe")
+			(uuid "590eef24-6736-4f3c-a1c7-57c13104810f")
 			(effects
 				(font
 					(size 1 1)
@@ -32208,7 +32181,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f7ae033-901e-4ee3-aaf8-ffc479971176")
+			(uuid "547312f4-12b7-4fb6-ae7f-1747e693186c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32220,7 +32193,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a203ee1-aedc-4007-bd1a-0bba396f8acf")
+			(uuid "ddb054df-485f-4bf4-aaa9-268171580933")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32959,7 +32932,7 @@
 		(property "Reference" "H5"
 			(at 0 -3.05 90)
 			(layer "F.SilkS")
-			(uuid "1d420506-67d6-4d11-b6dc-53123269be8e")
+			(uuid "79f17f6e-1b0b-4c19-bee2-4adea77209e6")
 			(effects
 				(font
 					(size 1 1)
@@ -32970,7 +32943,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.05 90)
 			(layer "F.Fab")
-			(uuid "3f53af9a-f61a-4bee-b7f9-89756b3e2f9c")
+			(uuid "d635febf-9ca6-49b7-957e-b96befa27797")
 			(effects
 				(font
 					(size 1 1)
@@ -32982,7 +32955,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0b147e2-73af-4539-8717-3d16b356835a")
+			(uuid "f4abfecb-1846-4f58-8e70-96b3a52a9bf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32994,7 +32967,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65e8845a-713b-48b0-ad17-4149f9b0a36f")
+			(uuid "01c3ff1b-d239-42f5-a605-363474ff1a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33104,7 +33077,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
-		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/665ffdf9-705c-40ad-a342-1db26079417d")
 		(sheetname "/left/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
@@ -33340,7 +33312,7 @@
 		(property "Reference" "D27"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "0813500a-1cde-4ccd-aec8-38edb4e2c52c")
+			(uuid "80f1c318-41c1-48ac-8b8b-e6916a34b364")
 			(effects
 				(font
 					(size 1 1)
@@ -33352,7 +33324,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "131f41aa-7fb7-4ea1-920f-dbee944580ec")
+			(uuid "ae59e7ee-6da2-4266-bb1a-2975688891c3")
 			(effects
 				(font
 					(size 1 1)
@@ -33366,7 +33338,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "30b5658e-aa34-49f2-8568-0a9b6571781b")
+			(uuid "8858ed5a-c9f2-487e-bc12-32df5608a120")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33380,7 +33352,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a1b87fbc-ad5a-4463-be60-51644bb2b810")
+			(uuid "dce5049a-0a96-4fda-95e1-19b3b6e7d7e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33656,7 +33628,7 @@
 		(property "Reference" "D7"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "ddf96f74-068c-4c7e-adde-e79b5a2ad6ba")
+			(uuid "3971aa18-64d2-4698-9a7d-5bea0bd5c15d")
 			(effects
 				(font
 					(size 1 1)
@@ -33668,7 +33640,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "fe80c40e-5fb4-4a1e-8b59-7eb0f8b2f6e4")
+			(uuid "0cb35d10-472e-4530-b3d5-211e0ce7de33")
 			(effects
 				(font
 					(size 1 1)
@@ -33682,7 +33654,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db956743-bc1e-414f-b358-507a14a7659c")
+			(uuid "f85688eb-a0a7-4aac-b3b0-f37a10a94056")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33696,7 +33668,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3a1afd9d-2bfd-4139-9713-a44fc921aa77")
+			(uuid "3beb2b17-bf8a-472f-bdcb-0495fe7b45af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33972,7 +33944,7 @@
 		(property "Reference" "D50"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "e1b12004-a4c0-4713-949d-fc7f8e352d5a")
+			(uuid "4b43bddc-83fa-4911-b808-e9e26043bc64")
 			(effects
 				(font
 					(size 1 1)
@@ -33984,7 +33956,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "7e7030d2-1403-441c-a07d-f7d8bdfe53a5")
+			(uuid "ff77257a-0fa2-4ce8-bec7-7ce009bda3a1")
 			(effects
 				(font
 					(size 1 1)
@@ -33998,7 +33970,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "62988640-30de-48aa-a4d6-2431a5161ac4")
+			(uuid "f3507ff4-af81-4d75-9564-9500f599c657")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34012,7 +33984,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5d56d230-6624-4c91-8116-10ecde0123d1")
+			(uuid "16333abb-0f61-4a43-81c9-ff72b46c85dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34051,7 +34023,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/29832513-9c28-4641-875a-648e465dfc6b")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34288,7 +34260,7 @@
 		(property "Reference" "D25"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "c9a001fa-ce9c-4707-bc3e-913a9faf82d9")
+			(uuid "33833416-94dd-4b04-a49d-a80b9d613c76")
 			(effects
 				(font
 					(size 1 1)
@@ -34300,7 +34272,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "54ef2da7-0507-456f-b0df-eb4edbdb7c3c")
+			(uuid "ed3a4ec3-9e97-4d0b-90f9-6dbeb73ef7d9")
 			(effects
 				(font
 					(size 1 1)
@@ -34314,7 +34286,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ac911466-9901-4bda-99e6-130f5305691b")
+			(uuid "cbcac35f-532c-440c-a429-ca62290aff3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34328,7 +34300,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3667e30b-a6a4-4d58-b1e5-97335208c108")
+			(uuid "669a65f1-d2a1-4c9b-989d-bb7c7c81cc7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34604,7 +34576,7 @@
 		(property "Reference" "D49"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "a4487194-ef08-4d54-b5c6-c5d009a56d54")
+			(uuid "fc20d91f-c4b5-40d5-928f-fd83f170f730")
 			(effects
 				(font
 					(size 1 1)
@@ -34616,7 +34588,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "b8c58ebc-43ac-4ef2-babf-be4e474437cf")
+			(uuid "dd178cc5-e91d-425e-a002-834800375a12")
 			(effects
 				(font
 					(size 1 1)
@@ -34630,7 +34602,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8b87bc5c-9a63-469e-ac5c-641df492677d")
+			(uuid "885316ed-99d6-405e-be0e-bbefdb3fa36e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34644,7 +34616,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bb206d6f-ef40-42d7-9537-04875fc3bbb5")
+			(uuid "7724d93d-f2c8-4faa-b77a-88afcc010d45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34683,7 +34655,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/377ddf6b-6bd7-4819-9ba9-807742de323d")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34920,7 +34892,7 @@
 		(property "Reference" "D28"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "b4fa49f8-f19e-4b77-bc62-be814d12558c")
+			(uuid "e7ba5a45-1f55-4e72-ab57-f7d05a6177b8")
 			(effects
 				(font
 					(size 1 1)
@@ -34932,7 +34904,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "4d5cb1ee-764b-4934-848b-0742adf5d788")
+			(uuid "1257a8f2-7d25-4501-8da5-15890ca45678")
 			(effects
 				(font
 					(size 1 1)
@@ -34946,7 +34918,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c751cfcf-5902-4253-8b94-5532d3c47ba5")
+			(uuid "63a27536-64ad-4675-8f10-6d35dc7046a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34960,7 +34932,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "abc20000-18be-46b5-87cb-9b176b3aeb70")
+			(uuid "34ffc9eb-6238-4f43-a49b-22eb9b7e05c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35236,7 +35208,7 @@
 		(property "Reference" "D51"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "b47f3d7d-3b16-4705-b755-5c18dcf3feb4")
+			(uuid "84d85216-7f70-47cd-aa74-eccbe8ae1d51")
 			(effects
 				(font
 					(size 1 1)
@@ -35248,7 +35220,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "9ef9fd72-e2ef-466b-8414-3cf106e684e7")
+			(uuid "1b3a855e-e826-4f89-af08-713f2c9c30ee")
 			(effects
 				(font
 					(size 1 1)
@@ -35262,7 +35234,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1f46e6f4-fde3-47ce-8dfe-5642e61fb0b9")
+			(uuid "6949ca6f-17b3-4165-9c6d-82bcde27b9a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35276,7 +35248,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ccf7c406-8dbd-441c-addf-85b7ee8d1fb8")
+			(uuid "35059349-cc97-49ba-aabc-c54b8ab4b7bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35315,7 +35287,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/16a3f33e-dab0-4e59-b33a-1cccc3916616")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35552,7 +35524,7 @@
 		(property "Reference" "D8"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "de1bcca5-511a-4a20-9fcc-731fdeff0430")
+			(uuid "28d0dd0f-5ec4-49a8-b935-d45bacb6879c")
 			(effects
 				(font
 					(size 1 1)
@@ -35564,7 +35536,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "6a2b6e08-c265-432d-a561-fcdcd63cfcd6")
+			(uuid "414f1cdd-f8a3-4c0e-8783-78ee245bc596")
 			(effects
 				(font
 					(size 1 1)
@@ -35578,7 +35550,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16a982e0-15a4-4956-b4e7-25dc78a2e08f")
+			(uuid "18e7281e-5e0e-4d81-bc39-dc1e61342b94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35592,7 +35564,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af403a17-2f9e-493a-b470-109fef0f2d94")
+			(uuid "2b5ad62c-b9f2-4160-9c62-d62e15a34b49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35868,7 +35840,7 @@
 		(property "Reference" "D16"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "9f8e7f06-7c41-4099-9028-13529812f2c8")
+			(uuid "40d1b66f-9d73-4277-8822-04ed9cc21381")
 			(effects
 				(font
 					(size 1 1)
@@ -35880,7 +35852,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "2b20b6e4-12c7-4c2f-b54b-fa4c909faed8")
+			(uuid "a309df59-fcb0-47de-be82-46b9df80db36")
 			(effects
 				(font
 					(size 1 1)
@@ -35894,7 +35866,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "240afc7a-b84a-4ad5-b490-0002614c5903")
+			(uuid "ebc111c0-c272-4298-9ae2-8e3d038cd57e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35908,7 +35880,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5ded1fb8-ee11-4219-9d92-4ce8bbd23d34")
+			(uuid "011f6a22-1b82-42dc-a889-b045847f6b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36184,7 +36156,7 @@
 		(property "Reference" "D17"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "d708e695-0f25-4bcb-b8db-271f94578898")
+			(uuid "bc1f3f49-523e-4fbb-9616-9f2f7ffeef23")
 			(effects
 				(font
 					(size 1 1)
@@ -36196,7 +36168,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "56ad396a-56b3-4af1-aee5-f439d6c9dd84")
+			(uuid "a08267a5-2479-4e3a-8aa8-cdefa3f69746")
 			(effects
 				(font
 					(size 1 1)
@@ -36210,7 +36182,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c7da628-5c35-437c-84c0-c8813a52db14")
+			(uuid "2b77daa8-358b-42eb-8220-297d05b9c885")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36224,7 +36196,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ca0639f-b491-4c88-a519-3160a8d1a02c")
+			(uuid "e51ec641-fdca-44db-961c-961af615686d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36500,7 +36472,7 @@
 		(property "Reference" "D38"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "eeebba31-726c-47fd-8578-3e197c8b6df3")
+			(uuid "acd392e6-c1fe-4cd1-a232-37021f3f76b7")
 			(effects
 				(font
 					(size 1 1)
@@ -36512,7 +36484,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "df3e7761-237a-4192-83d3-9b7122044de8")
+			(uuid "f0887cbb-baab-45f9-858d-5ab07f5232ff")
 			(effects
 				(font
 					(size 1 1)
@@ -36526,7 +36498,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7881faf5-1886-4542-8763-286813e29106")
+			(uuid "6a6ffdb0-3d9a-44a9-af4b-f3cad91a4bbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36540,7 +36512,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8080a812-cb02-42e5-ab75-71f872322953")
+			(uuid "b8e50115-a5a4-4474-8cdc-2689d6defc7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36579,7 +36551,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/d8bd7583-44e0-4ab3-b6f0-459ba8e08ff0")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36816,7 +36788,7 @@
 		(property "Reference" "D13"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "15c32294-d4bc-4a92-90cb-58b37165ddcd")
+			(uuid "ffa701b1-714b-4574-9c80-a3791022da37")
 			(effects
 				(font
 					(size 1 1)
@@ -36828,7 +36800,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "b15ab067-abf0-4199-94a4-482f547f9e21")
+			(uuid "e99430ad-83bb-4309-a4a8-384615eb5ab7")
 			(effects
 				(font
 					(size 1 1)
@@ -36842,7 +36814,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "341eec8b-b0ad-47e0-a780-ca6a3619f9ef")
+			(uuid "642b6750-03da-42f1-af9f-333d92ab77d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36856,7 +36828,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9f82dd9-0033-4ac9-ba98-4e2dd7b57967")
+			(uuid "874572e8-1c62-41de-93fb-399ba5d42059")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37132,7 +37104,7 @@
 		(property "Reference" "D29"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "4668bfb4-80ab-4454-a86e-85c02f887f2a")
+			(uuid "e28aa64e-b565-47d1-b1b0-4aa5683a5d31")
 			(effects
 				(font
 					(size 1 1)
@@ -37144,7 +37116,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "83f1adb3-0995-4b63-a036-ad2aecccf485")
+			(uuid "0a6fe03a-fe03-4bef-b08a-9d2eb13e1990")
 			(effects
 				(font
 					(size 1 1)
@@ -37158,7 +37130,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "64a48546-faa6-4ff1-975b-9955f9396db1")
+			(uuid "496c3210-2d5b-4461-b537-37d5089ec9a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37172,7 +37144,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cc315551-b559-412f-a27f-8f7527f2e372")
+			(uuid "2baf8aa4-46ee-48a8-8385-37374dca7869")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37448,7 +37420,7 @@
 		(property "Reference" "D40"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "9c6b592a-5b42-4d47-808a-b2779ba3975f")
+			(uuid "5632c204-bbcb-4aaa-8f1d-c379cf41778f")
 			(effects
 				(font
 					(size 1 1)
@@ -37460,7 +37432,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "623828c6-710e-40b1-905c-a68770a85f6a")
+			(uuid "8ff799e0-8927-4d8e-9942-aa7b0d004c6d")
 			(effects
 				(font
 					(size 1 1)
@@ -37474,7 +37446,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "950fa354-e36d-4599-a25d-26bf15d8d263")
+			(uuid "841ea289-bf7e-49ba-aca1-43e77285b041")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37488,7 +37460,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "28737856-5ceb-4a73-9fb6-c35cc8a0acca")
+			(uuid "a17c9f76-1648-483e-afd4-cae45278d583")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37527,7 +37499,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/b2aa65a6-cc0b-4a9a-95f7-c72f7c57e4a0")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37764,7 +37736,7 @@
 		(property "Reference" "D26"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "15935541-09be-45a7-bff0-a0dc7b9bce52")
+			(uuid "487dc36b-b218-437a-b336-64a0bdb908a2")
 			(effects
 				(font
 					(size 1 1)
@@ -37776,7 +37748,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "6bc67610-429e-455e-859c-71a011b39ca3")
+			(uuid "2fd1953e-3fb3-469c-aa3e-b13e8c243035")
 			(effects
 				(font
 					(size 1 1)
@@ -37790,7 +37762,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5af48222-9c11-408a-bffc-2adca373fa40")
+			(uuid "a3d048cd-65a8-4919-a85e-f593306a5f81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37804,7 +37776,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8cfd6bca-3adf-4d8f-8392-b9ef42d6727f")
+			(uuid "65e29dd5-8dae-4faf-bd57-4afbb3d36e90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38396,7 +38368,7 @@
 		(property "Reference" "D37"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "97a066e1-8780-4986-8f49-d4856f033f9c")
+			(uuid "bc6bbf13-14f9-47c9-a756-70cb312128e8")
 			(effects
 				(font
 					(size 1 1)
@@ -38408,7 +38380,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "95f153ba-9056-4ee7-8454-f0699343d914")
+			(uuid "33f88bb3-86e9-42a8-bbd0-cc18cfaa9e7e")
 			(effects
 				(font
 					(size 1 1)
@@ -38422,7 +38394,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "780b506a-b61a-4464-b38c-d386c055e339")
+			(uuid "609a51b5-cf9e-44f3-830d-6c032f545d0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38436,7 +38408,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d32f2a3d-a63e-4110-b614-0473b89ed652")
+			(uuid "bce9b7d1-9ac8-405d-bdbd-771b91012457")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38475,7 +38447,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/01d83942-a3a6-458b-b4a9-e9969faec564")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38712,7 +38684,7 @@
 		(property "Reference" "D41"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "c8a9d1d7-6090-4c81-8562-2209bddee276")
+			(uuid "7255f74c-67ca-4700-91d5-f86ec53a9387")
 			(effects
 				(font
 					(size 1 1)
@@ -38724,7 +38696,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "3ad7a4d3-e38b-46e7-8d77-96bba0ba81f2")
+			(uuid "e68558b1-6e97-47fe-a091-6b95bea81c88")
 			(effects
 				(font
 					(size 1 1)
@@ -38738,7 +38710,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "992fa19e-be57-4f86-8cd0-4d31e7c156f2")
+			(uuid "4a571b2f-0b36-4306-b318-840f3cfa843a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38752,7 +38724,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c74b2bf5-227f-42f0-b262-e5d132a6194a")
+			(uuid "76e4b33c-129e-436d-835e-28941c2723e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38791,7 +38763,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/1906aed6-9b6e-4121-964f-bea4fb168784")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39028,7 +39000,7 @@
 		(property "Reference" "D9"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "ecbc03c6-87b7-4690-be1b-32c011c29982")
+			(uuid "f7ff5879-353d-4db7-a6bc-ddbeec039923")
 			(effects
 				(font
 					(size 1 1)
@@ -39040,7 +39012,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "4a9f2f49-17c8-4bda-a6ac-0b20338dbe8f")
+			(uuid "bbab141d-aa93-43de-8b7a-5b13f0f8484d")
 			(effects
 				(font
 					(size 1 1)
@@ -39054,7 +39026,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08839514-38c7-476e-bfaa-103b5625b2a8")
+			(uuid "b069e266-3311-4ab4-8bef-a6da03b77aed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39068,7 +39040,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6418ddd3-edad-43c6-836a-4ed32fab1412")
+			(uuid "0d1c2e5f-1fd8-43bf-bba2-debc4a4b32f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39344,7 +39316,7 @@
 		(property "Reference" "D3"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "11beea7f-6d19-4375-a1c6-1aaed59533f5")
+			(uuid "bcfbeddf-504b-4a1c-864b-0194d81d76c3")
 			(effects
 				(font
 					(size 1 1)
@@ -39356,7 +39328,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "d3e92b12-0d02-454e-b35a-1db3a7490591")
+			(uuid "2f866ff6-4d9f-479a-9b2b-9b6268e47e80")
 			(effects
 				(font
 					(size 1 1)
@@ -39370,7 +39342,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2c1a8420-6e26-4d48-8137-6f2e171b1f0c")
+			(uuid "9ceb6148-2a42-47b8-a0a3-d7774a050415")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39384,7 +39356,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "63ff82a8-90d1-4882-92f8-cc4d7ca601ec")
+			(uuid "65dfc2b1-e442-4f0d-a540-c3972bdf9ecb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39660,7 +39632,7 @@
 		(property "Reference" "D39"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "9d57a540-8bb1-4b75-942b-2e09902b739b")
+			(uuid "6e74fe06-ac8e-4722-86b9-71fd580185a7")
 			(effects
 				(font
 					(size 1 1)
@@ -39672,7 +39644,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "07b85c88-4a45-4f42-987b-e2904906a966")
+			(uuid "9cd8b862-b407-44c5-9128-7c071983d276")
 			(effects
 				(font
 					(size 1 1)
@@ -39686,7 +39658,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "efeaa6f4-588e-4d9c-bea8-e396f58c2537")
+			(uuid "406b8914-9626-4af3-adc9-653195b39f13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39700,7 +39672,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bbf2ce5d-cc64-404a-823d-fdeea62be7cd")
+			(uuid "56c998ad-e00e-4588-931c-ba014fa0f6ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39739,7 +39711,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/858ccaf6-e310-4e1e-b672-8018e0803a7c")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39976,7 +39948,7 @@
 		(property "Reference" "D18"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "380f4dd2-ce04-41a0-bf9b-b78058d008b6")
+			(uuid "fb42bf78-61d4-4aed-8776-d0a67bb23f6e")
 			(effects
 				(font
 					(size 1 1)
@@ -39988,7 +39960,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "f5189ebb-1062-4bc7-9e96-f7583c3ebd85")
+			(uuid "0b27950f-9b4e-4fa4-8944-5ca99a9f758c")
 			(effects
 				(font
 					(size 1 1)
@@ -40002,7 +39974,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7350a9e3-754a-451a-863c-dd5db9573111")
+			(uuid "56629124-dd5a-45e1-a0ba-e43a79562c51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40016,7 +39988,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ba1e42d3-ac7c-4951-9668-e9df220aefef")
+			(uuid "86dea472-a5b7-4a35-b82f-44c71e777306")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40292,7 +40264,7 @@
 		(property "Reference" "D14"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "40d54ce8-b8b1-42f8-a1db-1f37dce9689f")
+			(uuid "8c36837e-d42a-49a0-9e61-0f83ac26091f")
 			(effects
 				(font
 					(size 1 1)
@@ -40304,7 +40276,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "6c2eb678-bc46-4a89-91eb-a1679dee95da")
+			(uuid "de915bd6-a5fa-41f3-a855-92c5371cd493")
 			(effects
 				(font
 					(size 1 1)
@@ -40318,7 +40290,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0ad7b3a-af0b-45a1-a03b-9d06c5e02fb4")
+			(uuid "a6331810-ce12-4973-a05f-1c904156d98a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40332,7 +40304,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c37e3c44-8422-4ba1-8a02-cb9be8cb0849")
+			(uuid "378b209c-148f-438b-a651-c1e33843003b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40608,7 +40580,7 @@
 		(property "Reference" "D52"
 			(at 0 2 75)
 			(layer "B.SilkS")
-			(uuid "6a4ecd68-7842-4541-8812-947e97631d06")
+			(uuid "bb109e0e-2e28-4bbf-a084-97efdccc5337")
 			(effects
 				(font
 					(size 1 1)
@@ -40620,7 +40592,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 75)
 			(layer "B.Fab")
-			(uuid "ca00e722-cb94-444b-a02d-3ddfa1e32f3d")
+			(uuid "d5047488-e0af-4327-9b64-eb801462fa6d")
 			(effects
 				(font
 					(size 1 1)
@@ -40634,7 +40606,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d267282a-f217-436e-a848-c05c549bc6a7")
+			(uuid "459e1ca0-6e47-48db-99df-8df9a49c48f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40648,7 +40620,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e11ab2be-8651-4ce5-ba37-e13262712f76")
+			(uuid "b8d612f5-a398-4b23-915c-5c73ed799067")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40687,7 +40659,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/fa4e5acb-2009-45c3-8518-4a7b6724c104")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40924,7 +40896,7 @@
 		(property "Reference" "D42"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "9aab1954-93c3-4069-ae6d-26e9023d55bf")
+			(uuid "47139579-a460-42c0-9517-28954ff02fe0")
 			(effects
 				(font
 					(size 1 1)
@@ -40936,7 +40908,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "4bd1612a-1ff3-4f39-a406-fca9ed7e3d9d")
+			(uuid "21c6c936-cb36-43f3-84d6-4518c00677c9")
 			(effects
 				(font
 					(size 1 1)
@@ -40950,7 +40922,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab509fd8-3fb4-4cd7-bddf-2d0b42f842ec")
+			(uuid "d923c2aa-94f8-4ff2-b5d5-a0ad3846108a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40964,7 +40936,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f0a630f9-6941-4b34-9eeb-195ed9ce66fc")
+			(uuid "4a71d131-c6bb-4af8-a788-a3fb19d115ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41003,7 +40975,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/1906764b-d707-4295-8c73-6dbbb57e6eb2")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41240,7 +41212,7 @@
 		(property "Reference" "D5"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "1ad60011-25c7-45c3-b396-b11e431d008e")
+			(uuid "0e942a32-a500-430d-8974-9726d96228b8")
 			(effects
 				(font
 					(size 1 1)
@@ -41252,7 +41224,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "37d9f2fb-27d3-479e-8c0a-1ea42d8c7691")
+			(uuid "5e1c6db5-b5ec-4438-b557-c35b9b2e2246")
 			(effects
 				(font
 					(size 1 1)
@@ -41266,7 +41238,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "48bd2297-6f3c-4d25-991c-9dc1b615b292")
+			(uuid "c8b10a19-d6f3-49f8-afcd-de194dddd943")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41280,7 +41252,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5e221913-0947-41da-ba7a-e693bf7239b8")
+			(uuid "b68082b5-38d1-4475-abe5-43ef1da3ef8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41556,7 +41528,7 @@
 		(property "Reference" "D53"
 			(at 0 2 60)
 			(layer "B.SilkS")
-			(uuid "4cb74413-de14-43f4-91a2-c4d2fdcbdbbe")
+			(uuid "932590a8-645c-444e-82c0-0aa334615519")
 			(effects
 				(font
 					(size 1 1)
@@ -41568,7 +41540,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 60)
 			(layer "B.Fab")
-			(uuid "a13da7b0-14cd-42a4-8613-7bcc845230ff")
+			(uuid "f6283417-12cd-4687-905e-e8118212a59c")
 			(effects
 				(font
 					(size 1 1)
@@ -41582,7 +41554,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc54aa4e-3565-4e58-9b3c-b1a6257da375")
+			(uuid "886ac526-e8c7-42a5-94fc-33adbbfcdc35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41596,7 +41568,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dc392d63-d316-4158-a50e-845002d7cc1e")
+			(uuid "53154244-a950-43c4-a412-e82990b1c5b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41635,7 +41607,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/ae7748c7-0e5e-4437-899d-576ada3e428e")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41872,7 +41844,7 @@
 		(property "Reference" "D30"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "68ae8ac8-a7c0-4052-94e5-467e33d2dcf3")
+			(uuid "92c95a61-c860-4a36-95ce-b1ff0992c32b")
 			(effects
 				(font
 					(size 1 1)
@@ -41884,7 +41856,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "492110cb-09d3-4a20-b2bb-9674dac643eb")
+			(uuid "650f680c-6da7-4688-bce2-bde73398a1b7")
 			(effects
 				(font
 					(size 1 1)
@@ -41898,7 +41870,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec233a1e-1038-441c-87ac-f29b74636b0a")
+			(uuid "b865fef3-908f-481a-9cd5-70ab8c814b58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41912,7 +41884,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "79418c39-fa19-4965-8e1a-061395a9ba86")
+			(uuid "ee785e3f-6965-4c86-ac37-4bd107b7029e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41951,7 +41923,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7560e8d7-2115-4052-abf3-3690798ba6d5/c74f7f19-4440-442f-b267-34bbfcaa24d7")
-		(sheetname "/left/")
+		(sheetname "/right/")
 		(sheetfile "half.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42188,7 +42160,7 @@
 		(property "Reference" "D15"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "00315c57-7a8d-492f-a16c-46f007ca5c23")
+			(uuid "7f3bd944-903c-49e3-82a4-a14797e5da22")
 			(effects
 				(font
 					(size 1 1)
@@ -42200,7 +42172,7 @@
 		(property "Value" "D"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "db27fb65-530c-4226-bde3-9e61103baf23")
+			(uuid "6f111f3d-4454-4e59-a179-cf3a9f336f78")
 			(effects
 				(font
 					(size 1 1)
@@ -42214,7 +42186,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "11daeb86-b9e9-41d0-8d3b-011fcf0e09a6")
+			(uuid "07bb26aa-e23a-4c78-99d0-4b3ca3ff0896")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42228,7 +42200,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "131e240a-26d0-4ddb-b25f-0a7eb14e6e0a")
+			(uuid "bc25e146-f83d-4011-9e87-bd4083ea6afa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42494,6 +42466,19 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_poly
+		(pts
+			(xy 266 166) (xy 324 160) (xy 345 160) (xy 404 168) (xy 404 247) (xy 407 258) (xy 396 277) (xy 381 272)
+			(xy 351 266) (xy 300 266) (xy 264 246) (xy 264 170)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "19500b63-6ba3-497e-a054-7835b0ade717")
 	)
 	(gr_poly
 		(pts
