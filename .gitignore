@@ -1,3 +1,6 @@
 .history/
 *.lck
 *.bak
+keeby-backups/
+~*
+_*
