@@ -687,7 +687,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plot/",
+      "plot": "plot/dxf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
