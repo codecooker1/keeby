@@ -7,3 +7,6 @@
 [submodule "PCB/Libs/supermini-nrf52840-kicad"]
 	path = PCB/Libs/supermini-nrf52840-kicad
 	url = git@github.com:BlueDrink9/supermini-nrf52840-kicad.git
+[submodule "keeby-zmk-config"]
+	path = keeby-zmk-config
+	url = git@github.com:codecooker1/keeby-zmk-config.git
