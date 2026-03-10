@@ -10,3 +10,6 @@
 [submodule "keeby-zmk-config"]
 	path = keeby-zmk-config
 	url = git@github.com:codecooker1/keeby-zmk-config.git
+[submodule "PCB/Libs/keyswitch_model"]
+	path = PCB/Libs/keyswitch_model
+	url = git@github.com:koktoh/keyswitch_model.git
