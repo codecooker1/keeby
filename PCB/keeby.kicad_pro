@@ -116,10 +116,6 @@
           ""
         ],
         [
-          "silk_overlap|225692437|103800000|bb67058f-573d-497c-869c-8bbfff1d4ef0|d7627a6c-82b7-4576-990b-6014883f7cbc",
-          ""
-        ],
-        [
           "silk_overlap|228550000|102000000|1873e58f-b604-44e2-9244-63eb71a8f646|ed573690-cb6d-4ad4-a44a-057363926401",
           ""
         ],
@@ -589,10 +585,24 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -600,7 +610,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "*VCC*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*+3.3V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*+5V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VBAT*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -610,7 +637,7 @@
       "plot": "plot/dxf/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3dout/keeby.step",
       "svg": "",
       "vrml": ""
     },
