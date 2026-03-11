@@ -8037,7 +8037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d568f3d-f91b-4035-a061-dff7ddb08ce0")
-		(property "Reference" "SW18"
+		(property "Reference" "SW13"
 			(at 144.78 125.73 0)
 			(effects
 				(font
@@ -8093,7 +8093,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW18")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -8258,7 +8258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "523d3530-ef85-414a-9566-a640ed59feb1")
-		(property "Reference" "SW24"
+		(property "Reference" "SW16"
 			(at 144.78 144.78 0)
 			(effects
 				(font
@@ -8314,7 +8314,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW24")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -8400,7 +8400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5526d0f1-915e-4523-af07-21dcfedc7ba0")
-		(property "Reference" "SW25"
+		(property "Reference" "SW26"
 			(at 36.83 163.83 0)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW25")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -8621,7 +8621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6400b637-5c1c-40df-ba6b-2138c8ca108e")
-		(property "Reference" "SW12"
+		(property "Reference" "SW7"
 			(at 144.78 106.68 0)
 			(effects
 				(font
@@ -8677,7 +8677,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW12")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8693,7 +8693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64346120-84b6-4ae1-ad65-5f726bfdd7eb")
-		(property "Reference" "SW13"
+		(property "Reference" "SW14"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -8749,7 +8749,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW13")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -11443,7 +11443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf2751da-b0c9-4e00-9922-efa3849943ef")
-		(property "Reference" "SW19"
+		(property "Reference" "SW20"
 			(at 36.83 144.78 0)
 			(effects
 				(font
@@ -11499,7 +11499,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW19")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -11771,7 +11771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ea24b2-d8de-49c6-a4a2-d04a29800380")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -11827,7 +11827,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12904,7 +12904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1964971-24c6-47af-a11e-9508eddf7b8b")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -12960,7 +12960,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13358,7 +13358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3434897-457a-46d8-aa31-411f5714c3f5")
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -13414,7 +13414,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -13430,7 +13430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d6efd5-e404-4ec2-a123-dd96bf38c75f")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -13486,7 +13486,7 @@
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
