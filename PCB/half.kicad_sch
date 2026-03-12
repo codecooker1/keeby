@@ -2977,8 +2977,16 @@
 		(uuid "a2a18a42-2548-4b4e-afb8-98f119d647c0")
 	)
 	(no_connect
+		(at 167.64 171.45)
+		(uuid "d7a798a2-ec32-4cbf-abf1-aaf322695c99")
+	)
+	(no_connect
 		(at 184.15 81.28)
 		(uuid "ebfa1d90-5d2e-447a-93b3-3ffaea11791f")
+	)
+	(no_connect
+		(at 177.8 171.45)
+		(uuid "f2581664-9799-4cdc-8916-4e81df5bac71")
 	)
 	(wire
 		(pts
@@ -5630,16 +5638,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0707cb6f-2a45-4d1b-a7c6-9f241f927a89")
-		(property "Reference" "SW61"
-			(at 189.23 92.71 0)
+		(property "Reference" "S61"
+			(at 189.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 189.23 90.17 0)
+		(property "Value" "S_SPDT"
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,11 +5693,11 @@
 		(instances
 			(project ""
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "SW62")
+					(reference "S62")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
-					(reference "SW61")
+					(reference "S61")
 					(unit 1)
 				)
 			)
