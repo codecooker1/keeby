@@ -4,5 +4,4 @@
 keeby-backups/
 ~*
 _*
-*.log
-*.dsn
+.log

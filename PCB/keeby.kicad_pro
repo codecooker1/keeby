@@ -604,7 +604,7 @@
       "netlist": "",
       "plot": "plot/dxf/",
       "pos_files": "",
-      "specctra_dsn": "../../keeby.dsn",
+      "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""
