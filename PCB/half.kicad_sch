@@ -5806,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 342.9 113.03 180)
+		(at 342.9 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5814,7 +5814,7 @@
 		(dnp no)
 		(uuid "03b87e7f-65bd-4ab0-a1f0-432edb83f776")
 		(property "Reference" "L18"
-			(at 342.9 124.968 0)
+			(at 342.9 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 342.9 122.428 0)
+			(at 342.9 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5889,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 341.63 140.97 180)
+		(at 341.63 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +5897,7 @@
 		(dnp no)
 		(uuid "06f561a5-5e78-4840-9b6f-87aaa808c34e")
 		(property "Reference" "L24"
-			(at 341.63 152.908 0)
+			(at 341.63 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5905,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 341.63 150.368 0)
+			(at 341.63 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +8231,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 168.91 180)
+		(at 270.51 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8239,7 +8239,7 @@
 		(dnp no)
 		(uuid "42ee5777-10be-46de-81a4-fdc1104654c1")
 		(property "Reference" "L27"
-			(at 270.51 155.448 0)
+			(at 270.51 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8247,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 157.734 0)
+			(at 270.51 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10223,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 168.91 180)
+		(at 318.77 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10231,7 +10231,7 @@
 		(dnp no)
 		(uuid "7528507a-04ff-4548-9415-452297f0eb33")
 		(property "Reference" "L29"
-			(at 318.77 155.448 0)
+			(at 318.77 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10239,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 157.734 0)
+			(at 318.77 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10306,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 168.91 180)
+		(at 222.25 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10314,7 +10314,7 @@
 		(dnp no)
 		(uuid "758cc461-f142-4d7b-be7c-700c95512b43")
 		(property "Reference" "L25"
-			(at 222.25 180.848 0)
+			(at 222.25 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10322,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 178.308 0)
+			(at 222.25 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +10550,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 113.03 180)
+		(at 318.77 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10558,7 +10558,7 @@
 		(dnp no)
 		(uuid "822cfc60-9355-44e4-94d7-9a809c2da173")
 		(property "Reference" "L17"
-			(at 318.77 124.968 0)
+			(at 318.77 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10566,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 122.428 0)
+			(at 318.77 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10883,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 140.97 180)
+		(at 294.64 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10891,7 +10891,7 @@
 		(dnp no)
 		(uuid "877829e2-82d1-4542-83d0-1eb93282e32c")
 		(property "Reference" "L22"
-			(at 294.64 152.908 0)
+			(at 294.64 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10899,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 150.368 0)
+			(at 294.64 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +11521,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 245.11 168.91 180)
+		(at 245.11 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11529,7 +11529,7 @@
 		(dnp no)
 		(uuid "9ab7dfb3-832c-4af0-a554-6ecc1ec23d64")
 		(property "Reference" "L26"
-			(at 245.11 180.848 0)
+			(at 245.11 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +11537,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 245.11 178.308 0)
+			(at 245.11 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +11604,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 168.91 180)
+		(at 294.64 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11612,7 +11612,7 @@
 		(dnp no)
 		(uuid "a38e59ca-9be7-4d20-81ae-0fc55e8acb97")
 		(property "Reference" "L28"
-			(at 294.64 155.448 0)
+			(at 294.64 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11620,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 157.734 0)
+			(at 294.64 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +12219,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 140.97 180)
+		(at 222.25 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12227,7 +12227,7 @@
 		(dnp no)
 		(uuid "aeeb031a-4b00-453b-8cc3-11ba393e2911")
 		(property "Reference" "L19"
-			(at 222.25 152.908 0)
+			(at 222.25 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12235,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 150.368 0)
+			(at 222.25 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13066,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 113.03 180)
+		(at 294.64 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13074,7 +13074,7 @@
 		(dnp no)
 		(uuid "c689f5ae-47bf-43a4-8c11-3d5832346501")
 		(property "Reference" "L16"
-			(at 294.64 124.968 0)
+			(at 294.64 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +13082,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 122.428 0)
+			(at 294.64 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13403,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 317.5 140.97 180)
+		(at 317.5 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13411,7 +13411,7 @@
 		(dnp no)
 		(uuid "cb3aa01b-4678-4724-a266-621029e479ae")
 		(property "Reference" "L23"
-			(at 317.5 152.908 0)
+			(at 317.5 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13419,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 317.5 150.368 0)
+			(at 317.5 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13486,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 246.38 140.97 180)
+		(at 246.38 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13494,7 +13494,7 @@
 		(dnp no)
 		(uuid "cdb06ad7-c7ca-4188-aaea-804294f9cf2d")
 		(property "Reference" "L20"
-			(at 246.38 152.908 0)
+			(at 246.38 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +13502,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 246.38 150.368 0)
+			(at 246.38 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13802,7 +13802,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 140.97 180)
+		(at 270.51 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13810,7 +13810,7 @@
 		(dnp no)
 		(uuid "d367a204-d0cb-46e8-bae1-6329d0d1c181")
 		(property "Reference" "L21"
-			(at 270.51 152.908 0)
+			(at 270.51 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13818,7 +13818,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 150.368 0)
+			(at 270.51 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
