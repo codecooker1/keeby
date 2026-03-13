@@ -2453,12 +2453,6 @@
 		(uuid "09c16290-ca78-48e9-9b36-b8f06dad5fb5")
 	)
 	(junction
-		(at 283.21 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0acc42a8-2532-4d73-bcb4-702e028cb5af")
-	)
-	(junction
 		(at 119.38 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2475,12 +2469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14fd1d62-5257-4534-9370-aa2b26a15926")
-	)
-	(junction
-		(at 283.21 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d62d39b-71bc-414f-924c-959e4ad824be")
 	)
 	(junction
 		(at 97.79 45.72)
@@ -2525,10 +2513,22 @@
 		(uuid "32da55e8-a5ea-4a40-98d0-571508b36957")
 	)
 	(junction
+		(at 283.21 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "337c9543-4d87-4c03-aef9-515afd8e1537")
+	)
+	(junction
 		(at 129.54 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "374441ff-a09e-4ed1-84af-baab103fdb7e")
+	)
+	(junction
+		(at 283.21 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3766fe03-b5d9-46b8-a146-7b61a9e79241")
 	)
 	(junction
 		(at 246.38 148.59)
@@ -2541,6 +2541,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c86234d-74d7-415f-89a7-e87f4374ae40")
+	)
+	(junction
+		(at 283.21 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2bb0c2-5c04-4724-b4aa-cf29dce37b4e")
 	)
 	(junction
 		(at 294.64 64.77)
@@ -2559,6 +2565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5572e666-d717-4df4-af8b-5b8d218e9fdf")
+	)
+	(junction
+		(at 283.21 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56107945-f633-49cc-9c75-948b774bc02c")
 	)
 	(junction
 		(at 246.38 64.77)
@@ -2595,6 +2607,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a4850ae-129a-4cf5-84d5-2e645b79074d")
+	)
+	(junction
+		(at 283.21 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ced12b7-555d-412a-97da-71dd0758c13e")
 	)
 	(junction
 		(at 294.64 133.35)
@@ -2651,12 +2669,6 @@
 		(uuid "74132fcb-9285-4606-9988-be37c44f5a38")
 	)
 	(junction
-		(at 283.21 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "753af404-712b-4216-95df-277b2bec9ea7")
-	)
-	(junction
 		(at 270.51 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2681,12 +2693,6 @@
 		(uuid "7a2138ff-77b7-498e-857e-c1078fff99cb")
 	)
 	(junction
-		(at 283.21 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b36d9ec-f350-435f-91af-f584bf4a1034")
-	)
-	(junction
 		(at 86.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2697,12 +2703,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1c572e-ffa3-48ab-a7a7-eb04204b1ac8")
-	)
-	(junction
-		(at 283.21 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ffd5ac0-c311-49c0-b481-a5b32d4fc2f7")
 	)
 	(junction
 		(at 64.77 91.44)
@@ -2735,6 +2735,12 @@
 		(uuid "8bbbce05-aa93-4d9c-abd7-f73629103a50")
 	)
 	(junction
+		(at 283.21 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2ee2e4-7054-431e-98a4-abf2904ee91f")
+	)
+	(junction
 		(at 294.64 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2747,22 +2753,10 @@
 		(uuid "987ed212-c3a9-4d63-b537-0f6ceff8755f")
 	)
 	(junction
-		(at 283.21 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99cb4277-51f6-4128-91a6-a8895913b999")
-	)
-	(junction
 		(at 86.36 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a656393-60ab-43d9-9bd6-309590ab1cef")
-	)
-	(junction
-		(at 283.21 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f8fa903-9829-4c4f-a66c-a5b213722efa")
 	)
 	(junction
 		(at 270.51 161.29)
@@ -2787,6 +2781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad6bda1e-78c6-4fc5-8390-6a358746bbf7")
+	)
+	(junction
+		(at 283.21 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c2eb69-402d-464b-862c-17129e084349")
 	)
 	(junction
 		(at 119.38 102.87)
@@ -2831,16 +2831,16 @@
 		(uuid "bf5fabbd-0af2-4b64-b04a-b4132e74f726")
 	)
 	(junction
-		(at 283.21 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1203461-f98b-482e-b4ea-7340355d4863")
-	)
-	(junction
 		(at 294.64 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7cf1c90-c2fc-4199-a53a-e54c64df37ce")
+	)
+	(junction
+		(at 283.21 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf38b213-09e3-4c97-8c72-a221ad30b139")
 	)
 	(junction
 		(at 245.11 176.53)
@@ -2879,6 +2879,12 @@
 		(uuid "de279d5d-e3a2-444a-9d8c-42f392394264")
 	)
 	(junction
+		(at 283.21 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de302dbd-44df-4ba8-8c3d-406b79717aba")
+	)
+	(junction
 		(at 43.18 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2889,6 +2895,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe51dbc-8535-4df4-826f-940ac5ad6e10")
+	)
+	(junction
+		(at 283.21 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b014c5-c838-45af-a0f1-682c880774b3")
 	)
 	(junction
 		(at 318.77 64.77)
@@ -2919,18 +2931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e839bcd7-4522-4b99-8142-0417867aaf36")
-	)
-	(junction
-		(at 283.21 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e89fb8c2-1425-4e4b-8c75-f788d5cee0cd")
-	)
-	(junction
-		(at 283.21 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e98d2225-4ea9-4919-89ea-8a5600efffd6")
 	)
 	(junction
 		(at 140.97 83.82)
@@ -3052,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 161.29) (xy 294.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040cee20-3f8f-45c1-9be3-6cfe5a5aa66c")
+	)
+	(wire
+		(pts
 			(xy 43.18 129.54) (xy 64.77 129.54)
 		)
 		(stroke
@@ -3139,6 +3149,16 @@
 			(type default)
 		)
 		(uuid "112d861b-c38d-44a5-a2d2-35572e1f6a2a")
+	)
+	(wire
+		(pts
+			(xy 283.21 64.77) (xy 294.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a09283-7dae-43b1-b1c0-ce877c2ad1f4")
 	)
 	(wire
 		(pts
@@ -3252,16 +3272,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 148.59) (xy 294.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231c3fec-8d96-4188-b753-055ce4b91366")
-	)
-	(wire
-		(pts
 			(xy 140.97 64.77) (xy 140.97 83.82)
 		)
 		(stroke
@@ -3272,13 +3282,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 77.47) (xy 294.64 77.47)
+			(xy 283.21 49.53) (xy 294.64 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2815fd4b-f1f4-41b8-abb9-f7199a1f36ea")
+		(uuid "240a4010-3f49-4d9a-aa65-04dbf89fe483")
 	)
 	(wire
 		(pts
@@ -3662,16 +3672,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 133.35) (xy 294.64 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9be465-57d9-4153-8e39-4b30f78f75a6")
-	)
-	(wire
-		(pts
 			(xy 33.02 64.77) (xy 33.02 83.82)
 		)
 		(stroke
@@ -3802,13 +3802,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 92.71) (xy 294.64 92.71)
+			(xy 283.21 120.65) (xy 294.64 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "781465ee-3023-45bc-88d9-2fc0af74234d")
+		(uuid "78520c5e-2bae-4046-9580-d359d7070f05")
 	)
 	(wire
 		(pts
@@ -3882,16 +3882,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 120.65) (xy 294.64 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b1b214-aea3-498b-bd9d-81412bcfe80a")
-	)
-	(wire
-		(pts
 			(xy 353.06 168.91) (xy 326.39 168.91)
 		)
 		(stroke
@@ -3912,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 148.59) (xy 294.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886e0145-7516-49d4-99e5-daefb889e4df")
+	)
+	(wire
+		(pts
 			(xy 148.59 247.65) (xy 148.59 245.11)
 		)
 		(stroke
@@ -3919,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "8abd439e-db0c-4b3d-b961-4568ff156c69")
+	)
+	(wire
+		(pts
+			(xy 283.21 133.35) (xy 294.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb2c8f7-65ab-4db6-856a-4d8f226ead89")
 	)
 	(wire
 		(pts
@@ -3942,16 +3952,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 161.29) (xy 294.64 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903ffd0e-ce12-4198-8316-d6f916c0daf1")
-	)
-	(wire
-		(pts
 			(xy 43.18 220.98) (xy 45.72 220.98)
 		)
 		(stroke
@@ -3962,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 176.53) (xy 294.64 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9088fae2-accc-426a-aaa5-2ac0cb900689")
-	)
-	(wire
-		(pts
 			(xy 76.2 83.82) (xy 76.2 102.87)
 		)
 		(stroke
@@ -3979,26 +3969,6 @@
 			(type default)
 		)
 		(uuid "930e3ed4-bd49-410f-96d4-e9245b6fbccc")
-	)
-	(wire
-		(pts
-			(xy 283.21 105.41) (xy 294.64 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95262859-2d2c-4b1e-bffd-cc6e8169e000")
-	)
-	(wire
-		(pts
-			(xy 283.21 64.77) (xy 294.64 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9550b064-ca23-48bc-899e-e3c75bbe6fe5")
 	)
 	(wire
 		(pts
@@ -4162,6 +4132,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 105.41) (xy 294.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f58fd74-9352-4034-859e-c010e99de046")
+	)
+	(wire
+		(pts
 			(xy 157.48 129.54) (xy 163.83 129.54)
 		)
 		(stroke
@@ -4179,6 +4159,16 @@
 			(type default)
 		)
 		(uuid "a20aafb5-b2dc-4cbe-aa7f-4b2d5b407bde")
+	)
+	(wire
+		(pts
+			(xy 283.21 176.53) (xy 294.64 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ef99f1-db69-4188-bf4d-f03413d1249c")
 	)
 	(wire
 		(pts
@@ -4332,6 +4322,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 92.71) (xy 294.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c3bd3d-d94b-43e4-bd5b-558b0bdec5d0")
+	)
+	(wire
+		(pts
 			(xy 270.51 176.53) (xy 283.21 176.53)
 		)
 		(stroke
@@ -4349,6 +4349,16 @@
 			(type default)
 		)
 		(uuid "ba33ac13-e66f-467f-ae51-d93f8151f8e4")
+	)
+	(wire
+		(pts
+			(xy 283.21 77.47) (xy 294.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba96b9a7-2000-41e0-a1cf-5922c97ec658")
 	)
 	(wire
 		(pts
@@ -4709,16 +4719,6 @@
 			(type default)
 		)
 		(uuid "e2445fcc-870a-4cc5-8007-7ca6bc1d4a7a")
-	)
-	(wire
-		(pts
-			(xy 283.21 49.53) (xy 294.64 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3286c38-fd96-46e5-8290-14a48e7d71fc")
 	)
 	(wire
 		(pts
@@ -5806,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 342.9 113.03 0)
+		(at 342.9 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5814,7 +5814,7 @@
 		(dnp no)
 		(uuid "03b87e7f-65bd-4ab0-a1f0-432edb83f776")
 		(property "Reference" "L18"
-			(at 342.9 101.092 0)
+			(at 342.9 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 342.9 103.632 0)
+			(at 342.9 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5877,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L47")
+					(reference "L42")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -5889,7 +5889,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 341.63 140.97 0)
+		(at 341.63 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +5897,7 @@
 		(dnp no)
 		(uuid "06f561a5-5e78-4840-9b6f-87aaa808c34e")
 		(property "Reference" "L24"
-			(at 341.63 129.032 0)
+			(at 341.63 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5905,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 341.63 131.572 0)
+			(at 341.63 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5960,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L53")
+					(reference "L48")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -6053,7 +6053,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 246.38 57.15 0)
+		(at 246.38 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6061,7 +6061,7 @@
 		(dnp no)
 		(uuid "07f5f795-d047-4870-962d-579088aba4c6")
 		(property "Reference" "L2"
-			(at 246.38 42.926 0)
+			(at 246.38 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6069,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 246.38 45.466 0)
+			(at 246.38 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6124,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L31")
+					(reference "L34")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -6840,7 +6840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 120.65 0)
+		(at 283.21 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6848,7 +6848,7 @@
 		(dnp no)
 		(uuid "1be29fb1-1428-48dd-8fd2-39c8a7cdef14")
 		(property "Reference" "#PWR033"
-			(at 283.21 127 0)
+			(at 283.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +6857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 124.206 0)
+			(at 283.21 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 120.65 0)
+			(at 283.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 120.65 0)
+			(at 283.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 120.65 0)
+			(at 283.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7007,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 57.15 0)
+		(at 222.25 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7015,7 +7015,7 @@
 		(dnp no)
 		(uuid "1f919e1d-68c6-48e1-8ffe-f23ddf0a773b")
 		(property "Reference" "L1"
-			(at 222.758 44.45 0)
+			(at 221.742 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7023,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.758 46.99 0)
+			(at 221.742 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7078,7 @@
 			)
 			(project ""
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L30")
+					(reference "L35")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -7517,7 +7517,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 57.15 0)
+		(at 318.77 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7525,7 +7525,7 @@
 		(dnp no)
 		(uuid "34089ea3-317f-4950-b16e-f3886f0ebb19")
 		(property "Reference" "L5"
-			(at 318.77 42.926 0)
+			(at 318.77 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7533,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 45.466 0)
+			(at 318.77 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +7588,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L34")
+					(reference "L31")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -7874,7 +7874,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 85.09 0)
+		(at 318.77 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7882,7 +7882,7 @@
 		(dnp no)
 		(uuid "36f6b6a0-24ed-4fd4-875c-6593d6ca4612")
 		(property "Reference" "L11"
-			(at 318.77 70.866 0)
+			(at 318.77 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7890,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 73.406 0)
+			(at 318.77 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7945,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L40")
+					(reference "L37")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -8231,7 +8231,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 168.91 0)
+		(at 270.51 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8239,7 +8239,7 @@
 		(dnp no)
 		(uuid "42ee5777-10be-46de-81a4-fdc1104654c1")
 		(property "Reference" "L27"
-			(at 270.51 156.972 0)
+			(at 270.51 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8247,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 159.512 0)
+			(at 270.51 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8466,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 283.21 161.29 0)
+		(at 283.21 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8474,7 +8474,7 @@
 		(dnp no)
 		(uuid "48483829-d0fb-4956-aeb2-d16651ef0e6b")
 		(property "Reference" "#PWR029"
-			(at 283.21 165.1 0)
+			(at 283.21 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8483,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 157.226 0)
+			(at 283.21 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 161.29 0)
+			(at 283.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 161.29 0)
+			(at 283.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +8509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 161.29 0)
+			(at 283.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 148.59 0)
+		(at 283.21 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8543,7 +8543,7 @@
 		(dnp no)
 		(uuid "484e81a9-a7c9-4c81-8089-35c3b282daff")
 		(property "Reference" "#PWR035"
-			(at 283.21 154.94 0)
+			(at 283.21 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 152.146 0)
+			(at 283.21 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 148.59 0)
+			(at 283.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 148.59 0)
+			(at 283.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 148.59 0)
+			(at 283.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +8838,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 85.09 0)
+		(at 270.51 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8846,7 +8846,7 @@
 		(dnp no)
 		(uuid "4d9ecaf4-98f8-4e01-b76c-5e2b174aa4f0")
 		(property "Reference" "L9"
-			(at 270.51 70.866 0)
+			(at 270.51 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +8854,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 73.406 0)
+			(at 270.51 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8909,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L38")
+					(reference "L39")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -8921,7 +8921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 92.71 0)
+		(at 283.21 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8929,7 +8929,7 @@
 		(dnp no)
 		(uuid "4dbe937c-bb7f-41ba-be1b-a1cf89ba3263")
 		(property "Reference" "#PWR031"
-			(at 283.21 99.06 0)
+			(at 283.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +8938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 96.266 0)
+			(at 283.21 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +8946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 92.71 0)
+			(at 283.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +8955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 92.71 0)
+			(at 283.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 92.71 0)
+			(at 283.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9146,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 283.21 49.53 0)
+		(at 283.21 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9154,7 +9154,7 @@
 		(dnp no)
 		(uuid "54cbe12f-e20f-4a28-b76d-9327598f419e")
 		(property "Reference" "#PWR03"
-			(at 283.21 53.34 0)
+			(at 283.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9163,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 45.466 0)
+			(at 283.21 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 49.53 0)
+			(at 283.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 49.53 0)
+			(at 283.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 49.53 0)
+			(at 283.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9299,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 85.09 0)
+		(at 222.25 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9307,7 +9307,7 @@
 		(dnp no)
 		(uuid "56e188cd-e02e-4dcb-9c4e-d8e8a5f43af2")
 		(property "Reference" "L7"
-			(at 222.25 70.866 0)
+			(at 222.25 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9315,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 73.406 0)
+			(at 222.25 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9370,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L36")
+					(reference "L41")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -9714,7 +9714,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 283.21 133.35 0)
+		(at 283.21 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9722,7 +9722,7 @@
 		(dnp no)
 		(uuid "65994e15-9e03-4dc6-82e8-00d11918b16f")
 		(property "Reference" "#PWR027"
-			(at 283.21 137.16 0)
+			(at 283.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +9731,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 129.286 0)
+			(at 283.21 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 133.35 0)
+			(at 283.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 133.35 0)
+			(at 283.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 133.35 0)
+			(at 283.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9783,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 113.03 0)
+		(at 222.25 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9791,7 +9791,7 @@
 		(dnp no)
 		(uuid "665ffdf9-705c-40ad-a342-1db26079417d")
 		(property "Reference" "L13"
-			(at 222.25 98.806 0)
+			(at 222.25 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +9799,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 101.346 0)
+			(at 222.25 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9854,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L42")
+					(reference "L47")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10140,7 +10140,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 113.03 0)
+		(at 270.51 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10148,7 +10148,7 @@
 		(dnp no)
 		(uuid "73c778b7-5b73-4f18-886b-af61b247c787")
 		(property "Reference" "L15"
-			(at 270.51 99.06 0)
+			(at 270.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +10156,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 101.6 0)
+			(at 270.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10211,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L44")
+					(reference "L45")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10223,7 +10223,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 168.91 0)
+		(at 318.77 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10231,7 +10231,7 @@
 		(dnp no)
 		(uuid "7528507a-04ff-4548-9415-452297f0eb33")
 		(property "Reference" "L29"
-			(at 318.77 156.972 0)
+			(at 318.77 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10239,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 159.512 0)
+			(at 318.77 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +10294,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L58")
+					(reference "L54")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10306,7 +10306,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 168.91 0)
+		(at 222.25 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10314,7 +10314,7 @@
 		(dnp no)
 		(uuid "758cc461-f142-4d7b-be7c-700c95512b43")
 		(property "Reference" "L25"
-			(at 222.25 156.972 0)
+			(at 222.25 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10322,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 159.512 0)
+			(at 222.25 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10377,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L54")
+					(reference "L58")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10389,7 +10389,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 57.15 0)
+		(at 270.51 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10397,7 +10397,7 @@
 		(dnp no)
 		(uuid "7d106164-04e6-40da-9dcf-7dd490056c81")
 		(property "Reference" "L3"
-			(at 270.51 42.926 0)
+			(at 270.51 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10405,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 45.466 0)
+			(at 270.51 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10460,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L32")
+					(reference "L33")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10550,7 +10550,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 318.77 113.03 0)
+		(at 318.77 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10558,7 +10558,7 @@
 		(dnp no)
 		(uuid "822cfc60-9355-44e4-94d7-9a809c2da173")
 		(property "Reference" "L17"
-			(at 318.77 101.092 0)
+			(at 318.77 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10566,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 318.77 103.632 0)
+			(at 318.77 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10621,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L46")
+					(reference "L43")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10710,7 +10710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 64.77 0)
+		(at 283.21 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10718,7 +10718,7 @@
 		(dnp no)
 		(uuid "854aaaae-a5c1-498e-827e-ae30beaab58e")
 		(property "Reference" "#PWR013"
-			(at 283.21 71.12 0)
+			(at 283.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +10727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 68.326 0)
+			(at 283.21 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 64.77 0)
+			(at 283.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10744,7 +10744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 64.77 0)
+			(at 283.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 64.77 0)
+			(at 283.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10883,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 140.97 0)
+		(at 294.64 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10891,7 +10891,7 @@
 		(dnp no)
 		(uuid "877829e2-82d1-4542-83d0-1eb93282e32c")
 		(property "Reference" "L22"
-			(at 294.64 129.032 0)
+			(at 294.64 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10899,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 131.572 0)
+			(at 294.64 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10954,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L51")
+					(reference "L50")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -10966,7 +10966,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 283.21 77.47 0)
+		(at 283.21 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10974,7 +10974,7 @@
 		(dnp no)
 		(uuid "883113e0-b474-462b-92c8-6985b64d198c")
 		(property "Reference" "#PWR023"
-			(at 283.21 81.28 0)
+			(at 283.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10983,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 73.406 0)
+			(at 283.21 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,7 +10991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 77.47 0)
+			(at 283.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 77.47 0)
+			(at 283.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +11009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 77.47 0)
+			(at 283.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11133,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 57.15 0)
+		(at 294.64 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11141,7 +11141,7 @@
 		(dnp no)
 		(uuid "8f121f64-df9d-429c-bbf2-01cff0cb9a30")
 		(property "Reference" "L4"
-			(at 294.64 42.926 0)
+			(at 294.64 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11149,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 45.466 0)
+			(at 294.64 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11204,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L33")
+					(reference "L32")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -11521,7 +11521,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 245.11 168.91 0)
+		(at 245.11 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11529,7 +11529,7 @@
 		(dnp no)
 		(uuid "9ab7dfb3-832c-4af0-a554-6ecc1ec23d64")
 		(property "Reference" "L26"
-			(at 245.11 156.972 0)
+			(at 245.11 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +11537,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 245.11 159.512 0)
+			(at 245.11 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,7 +11592,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L55")
+					(reference "L57")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -11604,7 +11604,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 168.91 0)
+		(at 294.64 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11612,7 +11612,7 @@
 		(dnp no)
 		(uuid "a38e59ca-9be7-4d20-81ae-0fc55e8acb97")
 		(property "Reference" "L28"
-			(at 294.64 156.972 0)
+			(at 294.64 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11620,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 159.512 0)
+			(at 294.64 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11675,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L57")
+					(reference "L55")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -12219,7 +12219,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 222.25 140.97 0)
+		(at 222.25 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12227,7 +12227,7 @@
 		(dnp no)
 		(uuid "aeeb031a-4b00-453b-8cc3-11ba393e2911")
 		(property "Reference" "L19"
-			(at 222.25 129.032 0)
+			(at 222.25 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12235,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 222.25 131.572 0)
+			(at 222.25 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +12290,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L48")
+					(reference "L53")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -12302,7 +12302,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 85.09 0)
+		(at 294.64 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12310,7 +12310,7 @@
 		(dnp no)
 		(uuid "afcd2722-9159-4b64-a9ba-06f363efa75b")
 		(property "Reference" "L10"
-			(at 294.64 70.866 0)
+			(at 294.64 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12318,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 73.406 0)
+			(at 294.64 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,7 +12373,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L39")
+					(reference "L38")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -13066,7 +13066,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 294.64 113.03 0)
+		(at 294.64 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13074,7 +13074,7 @@
 		(dnp no)
 		(uuid "c689f5ae-47bf-43a4-8c11-3d5832346501")
 		(property "Reference" "L16"
-			(at 294.64 101.092 0)
+			(at 294.64 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +13082,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 294.64 103.632 0)
+			(at 294.64 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13137,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L45")
+					(reference "L44")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -13403,7 +13403,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 317.5 140.97 0)
+		(at 317.5 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13411,7 +13411,7 @@
 		(dnp no)
 		(uuid "cb3aa01b-4678-4724-a266-621029e479ae")
 		(property "Reference" "L23"
-			(at 317.5 129.032 0)
+			(at 317.5 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13419,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 317.5 131.572 0)
+			(at 317.5 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13474,7 +13474,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L52")
+					(reference "L49")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -13486,7 +13486,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 246.38 140.97 0)
+		(at 246.38 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13494,7 +13494,7 @@
 		(dnp no)
 		(uuid "cdb06ad7-c7ca-4188-aaea-804294f9cf2d")
 		(property "Reference" "L20"
-			(at 246.38 129.032 0)
+			(at 246.38 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +13502,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 246.38 131.572 0)
+			(at 246.38 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13557,7 +13557,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L49")
+					(reference "L52")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -13569,7 +13569,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 246.38 113.03 0)
+		(at 246.38 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13577,7 +13577,7 @@
 		(dnp no)
 		(uuid "d0ab9958-3f0c-45ea-beb5-36673e72b304")
 		(property "Reference" "L14"
-			(at 246.38 98.806 0)
+			(at 246.38 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +13585,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 246.38 101.346 0)
+			(at 246.38 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,7 +13640,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L43")
+					(reference "L46")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -13802,7 +13802,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 270.51 140.97 0)
+		(at 270.51 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13810,7 +13810,7 @@
 		(dnp no)
 		(uuid "d367a204-d0cb-46e8-bae1-6329d0d1c181")
 		(property "Reference" "L21"
-			(at 270.51 129.032 0)
+			(at 270.51 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13818,7 +13818,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 270.51 131.572 0)
+			(at 270.51 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +13873,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L50")
+					(reference "L51")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -14289,7 +14289,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 283.21 105.41 0)
+		(at 283.21 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14297,7 +14297,7 @@
 		(dnp no)
 		(uuid "e19b7346-9f9a-4818-ac96-f664c6d135ce")
 		(property "Reference" "#PWR025"
-			(at 283.21 109.22 0)
+			(at 283.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +14306,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 101.346 0)
+			(at 283.21 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +14314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 105.41 0)
+			(at 283.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 105.41 0)
+			(at 283.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 105.41 0)
+			(at 283.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14358,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 342.9 57.15 0)
+		(at 342.9 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14366,7 +14366,7 @@
 		(dnp no)
 		(uuid "e66e9373-dab0-449d-a364-f9e94d8ab943")
 		(property "Reference" "L6"
-			(at 342.9 42.926 0)
+			(at 342.9 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,7 +14374,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 342.9 45.466 0)
+			(at 342.9 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,7 +14429,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L35")
+					(reference "L30")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -14589,7 +14589,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 246.38 85.09 0)
+		(at 246.38 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14597,7 +14597,7 @@
 		(dnp no)
 		(uuid "e9a49148-49e8-42c1-8b3a-99ed2c12ac07")
 		(property "Reference" "L8"
-			(at 246.38 70.866 0)
+			(at 246.38 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14605,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 246.38 73.406 0)
+			(at 246.38 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14660,7 +14660,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L37")
+					(reference "L40")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
@@ -15220,7 +15220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 176.53 0)
+		(at 283.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15228,7 +15228,7 @@
 		(dnp no)
 		(uuid "fbf875c3-8125-495d-a1c5-3599d548bf58")
 		(property "Reference" "#PWR037"
-			(at 283.21 182.88 0)
+			(at 283.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,7 +15237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 180.086 0)
+			(at 283.21 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15245,7 +15245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 176.53 0)
+			(at 283.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15254,7 +15254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 176.53 0)
+			(at 283.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15263,7 +15263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 176.53 0)
+			(at 283.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15289,7 +15289,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 342.9 85.09 0)
+		(at 342.9 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15297,7 +15297,7 @@
 		(dnp no)
 		(uuid "fd261161-47c6-4db9-9b68-7b8c38d260ed")
 		(property "Reference" "L12"
-			(at 342.9 70.866 0)
+			(at 342.9 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15305,7 +15305,7 @@
 			)
 		)
 		(property "Value" "SK6812-MINI-E"
-			(at 342.9 73.406 0)
+			(at 342.9 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15360,7 +15360,7 @@
 			)
 			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
-					(reference "L41")
+					(reference "L36")
 					(unit 1)
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
