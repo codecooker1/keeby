@@ -3,19 +3,27 @@ A custom ergonomic split keyboard made for HackClub Blueprint based on Corne, Li
 
 # Routing PCB
 more detailed svg and pdf available in PCB/plot
-<img width="1267" height="523" alt="Screenshot_20260215_182304" src="https://github.com/user-attachments/assets/16d85e34-d1f8-4e3b-8a15-969eaa5e25d3" />
+
+<img width="1267" height="523" alt="Screenshot_20260215_182304" src="Pics/keeby-B_Cu.png" />
+<img width="1267" height="523" alt="Screenshot_20260215_182304" src="Pics/keeby-F_Cu.png" />
 
 # Schematic for the right half
-<img width="5846" height="4134" alt="keeby-right" src="https://github.com/user-attachments/assets/86733193-ec87-4bf7-aaa7-7b755cd44c0d" />
+<img width="5846" height="4134" alt="keeb-right" src="Pics/keeb-right.png" />
 
 # Schematic for the left half
-<img width="5846" height="4134" alt="keeby-left" src="https://github.com/user-attachments/assets/88a14a87-caf2-4ac1-9f91-89e778cfadc1" />
+<img width="5846" height="4134" alt="keeb-left" src="Pics/keeb-left.png" />
 
 # Casing??
-I plan to make it as bare-bone as possible and casing is bloat. since it uses low profile keys and the keyboard isn't that much thick, I plan to use small rubber legs to support it.
+Yup, made the casing in onshape. This is supposed to be 3D printed. You can find the 3D part files in the CAD/PrintParts folder. Here the FullCase is the full 3D model of the casing all parts included. Or you can find 3D models of individual parts in the CAD/PrintParts folder named by part.
+
+Alternatively, you can view the Onshape design here: https://cad.onshape.com/documents/7252c9cab477090fa80b5ebe/w/9b87afb059b10e97f9e15540/e/26e119e6690b400aabda07c5
+
+<img width="1083" height="637" alt="keeby" src="Pics/Case.png" />
 
 # How does the final PCB looks?
-<img width="1083" height="637" alt="keeby" src="https://github.com/user-attachments/assets/919a1606-1076-4d3a-982e-b6cc4d594396" />
+<img width="1083" height="637" alt="keeby" src="Pics/keebyv.png" />
+<img width="1083" height="637" alt="keeby" src="Pics/keebyv2.png" />
+
 For detailed view a .step file is in PCB/3dout/keeby.step
 
 
