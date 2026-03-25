@@ -408,7 +408,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "keeby"
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03/7d4d5eec-9ea4-4217-a71e-db79e44f0187"
 					(reference "J2")
 					(unit 1)
