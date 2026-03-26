@@ -151,6 +151,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -171,7 +333,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
+			(property "Value" "C_Small_0.1uf"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
@@ -442,6 +604,130 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3145,6 +3431,12 @@
 		(uuid "cd3ddb02-a7aa-43c9-93dd-48cef9ac956f")
 	)
 	(junction
+		(at 95.25 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce305d7e-9bbf-488b-b403-3057ded4590a")
+	)
+	(junction
 		(at 283.21 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3528,6 +3820,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 36.83) (xy 368.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132a9d9b-9728-4187-a536-170459505475")
+	)
+	(wire
+		(pts
 			(xy 283.21 44.45) (xy 294.64 44.45)
 		)
 		(stroke
@@ -3738,6 +4040,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 228.6) (xy 83.82 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244b62da-e28c-4274-a5da-6c182dc28a4d")
+	)
+	(wire
+		(pts
 			(xy 222.25 162.56) (xy 246.38 162.56)
 		)
 		(stroke
@@ -3805,6 +4117,16 @@
 			(type default)
 		)
 		(uuid "333f68be-6b5a-458f-afad-202977dd21bf")
+	)
+	(wire
+		(pts
+			(xy 95.25 228.6) (xy 95.25 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ed542f-16a5-4376-b284-ab581a910d1b")
 	)
 	(wire
 		(pts
@@ -4328,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 36.83) (xy 368.3 36.83)
+			(xy 350.52 36.83) (xy 355.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4545,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "79acd3d6-3e19-4d82-aa52-94e84eb37d67")
+	)
+	(wire
+		(pts
+			(xy 95.25 241.3) (xy 95.25 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0c4938-9d35-471d-921d-7d1d34254403")
 	)
 	(wire
 		(pts
@@ -5015,16 +5347,6 @@
 			(type default)
 		)
 		(uuid "af1800ae-cca5-4b53-b086-30da4d117964")
-	)
-	(wire
-		(pts
-			(xy 83.82 228.6) (xy 95.25 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af3ba407-8bbe-4f70-bad0-cb565236cc1e")
 	)
 	(wire
 		(pts
@@ -5805,6 +6127,16 @@
 			(type default)
 		)
 		(uuid "ebdc30bb-0cc6-4472-a88e-79430e1e34bb")
+	)
+	(wire
+		(pts
+			(xy 95.25 226.06) (xy 95.25 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3f4fce-5997-45d8-a6ae-e5e2d4400906")
 	)
 	(wire
 		(pts
@@ -8060,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 297.18 166.3762 0)
 			(effects
 				(font
@@ -8069,7 +8401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 165.1 0)
 			(effects
 				(font
@@ -8393,7 +8725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 273.05 166.3762 0)
 			(effects
 				(font
@@ -8402,7 +8734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -9432,7 +9764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 273.05 58.4262 0)
 			(effects
 				(font
@@ -9441,7 +9773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.51 57.15 0)
 			(effects
 				(font
@@ -10182,7 +10514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 297.18 74.9362 0)
 			(effects
 				(font
@@ -10191,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 73.66 0)
 			(effects
 				(font
@@ -10564,7 +10896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 224.79 236.2262 0)
 			(effects
 				(font
@@ -10573,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 234.95 0)
 			(effects
 				(font
@@ -10791,7 +11123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 248.92 58.4262 0)
 			(effects
 				(font
@@ -10800,7 +11132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.38 57.15 0)
 			(effects
 				(font
@@ -11008,6 +11340,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f39c67-b94b-466c-ad71-77abe0088e7b")
+		(property "Reference" "#PWR045"
+			(at 95.25 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.044 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "550341ce-1c9a-4e4a-807a-6a787b72f927")
+		)
+		(instances
+			(project "keeby"
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 317.5 165.1 0)
 		(unit 1)
@@ -11026,7 +11427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 320.04 166.3762 0)
 			(effects
 				(font
@@ -11035,7 +11436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 317.5 165.1 0)
 			(effects
 				(font
@@ -11100,7 +11501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 345.44 74.9362 0)
 			(effects
 				(font
@@ -11109,7 +11510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 73.66 0)
 			(effects
 				(font
@@ -11497,7 +11898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 248.92 166.3762 0)
 			(effects
 				(font
@@ -11506,7 +11907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.38 165.1 0)
 			(effects
 				(font
@@ -11899,7 +12300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uF"
 			(at 224.79 58.4262 0)
 			(effects
 				(font
@@ -11908,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 57.15 0)
 			(effects
 				(font
@@ -12071,7 +12472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 247.65 236.2262 0)
 			(effects
 				(font
@@ -12080,7 +12481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 245.11 234.95 0)
 			(effects
 				(font
@@ -12121,6 +12522,78 @@
 				)
 				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71023da0-0d25-40f7-84f5-9b517d07a25d")
+		(property "Reference" "R1"
+			(at 359.41 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_470Ω"
+			(at 359.41 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 359.41 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 359.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7215977a-85f0-42ee-a96d-c1f6ba91615f")
+		)
+		(pin "2"
+			(uuid "ca2d12b2-529f-4026-a60b-06b02ccf0cdb")
+		)
+		(instances
+			(project "keeby"
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12477,7 +12950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 273.05 74.9362 0)
 			(effects
 				(font
@@ -12486,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.51 73.66 0)
 			(effects
 				(font
@@ -12698,7 +13171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 297.18 149.8662 0)
 			(effects
 				(font
@@ -12707,7 +13180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 148.59 0)
 			(effects
 				(font
@@ -13438,7 +13911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 273.05 236.2262 0)
 			(effects
 				(font
@@ -13447,7 +13920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.51 234.95 0)
 			(effects
 				(font
@@ -13590,7 +14063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 224.79 74.9362 0)
 			(effects
 				(font
@@ -13599,7 +14072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -13664,7 +14137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 248.92 74.9362 0)
 			(effects
 				(font
@@ -13673,7 +14146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -13812,7 +14285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 224.79 149.8662 0)
 			(effects
 				(font
@@ -13821,7 +14294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -14378,7 +14851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 297.18 58.4262 0)
 			(effects
 				(font
@@ -14387,7 +14860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 57.15 0)
 			(effects
 				(font
@@ -14528,7 +15001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 224.79 166.3762 0)
 			(effects
 				(font
@@ -14537,7 +15010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -14602,7 +15075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 345.44 166.3762 0)
 			(effects
 				(font
@@ -14611,7 +15084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 165.1 0)
 			(effects
 				(font
@@ -14861,7 +15334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 248.92 149.8662 0)
 			(effects
 				(font
@@ -14870,7 +15343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.38 148.59 0)
 			(effects
 				(font
@@ -15450,7 +15923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 345.44 58.4262 0)
 			(effects
 				(font
@@ -15459,7 +15932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 57.15 0)
 			(effects
 				(font
@@ -15524,7 +15997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 345.44 149.8662 0)
 			(effects
 				(font
@@ -15533,7 +16006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 148.59 0)
 			(effects
 				(font
@@ -16189,7 +16662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 297.18 236.2262 0)
 			(effects
 				(font
@@ -16198,7 +16671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 234.95 0)
 			(effects
 				(font
@@ -16671,7 +17144,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 95.25 228.6 0)
+		(at 95.25 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16679,7 +17152,7 @@
 		(dnp no)
 		(uuid "d23fea0e-7383-488c-b4ad-07fb99b66e29")
 		(property "Reference" "#PWR015"
-			(at 95.25 232.41 0)
+			(at 95.25 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16688,7 +17161,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 99.314 227.584 0)
+			(at 99.314 225.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16696,7 +17169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 228.6 0)
+			(at 95.25 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16705,7 +17178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 228.6 0)
+			(at 95.25 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,7 +17187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 228.6 0)
+			(at 95.25 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16921,7 +17394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 321.31 74.9362 0)
 			(effects
 				(font
@@ -16930,7 +17403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 73.66 0)
 			(effects
 				(font
@@ -17247,7 +17720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 321.31 236.2262 0)
 			(effects
 				(font
@@ -17256,7 +17729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 234.95 0)
 			(effects
 				(font
@@ -17303,6 +17776,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 95.25 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd8e3324-5851-46b7-9858-6093312a52cd")
+		(property "Reference" "C59"
+			(at 97.79 236.9438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized_Small"
+			(at 97.79 239.4838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder"
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0de6de83-b1cc-480d-9f5b-a67086b59238")
+		)
+		(pin "1"
+			(uuid "69159318-5711-4d71-b046-8472b3a30798")
+		)
+		(instances
+			(project "keeby"
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/0032fa72-ac59-4218-be72-f997fa7d8d03"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/fade6638-4e22-4fdd-8807-944beeb130ad/7560e8d7-2115-4052-abf3-3690798ba6d5"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 318.77 57.15 0)
 		(unit 1)
@@ -17321,7 +17868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 321.31 58.4262 0)
 			(effects
 				(font
@@ -17330,7 +17877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 57.15 0)
 			(effects
 				(font
@@ -17616,7 +18163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 273.05 149.8662 0)
 			(effects
 				(font
@@ -17625,7 +18172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.51 148.59 0)
 			(effects
 				(font
@@ -18180,7 +18727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "C_Small_0.1uf"
 			(at 321.31 149.8662 0)
 			(effects
 				(font
@@ -18189,7 +18736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 148.59 0)
 			(effects
 				(font
