@@ -553,7 +553,7 @@
       "plot": "plot/pcb/svg",
       "pos_files": "",
       "specctra_dsn": "../../keeby.dsn",
-      "step": "keeby.stl",
+      "step": "3dout/keeby_full.step",
       "svg": "",
       "vrml": ""
     },

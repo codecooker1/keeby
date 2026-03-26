@@ -8,10 +8,10 @@ more detailed svg and pdf available in PCB/plot
 <img width="1267" height="523" alt="Screenshot_20260215_182304" src="Pics/keeby-F_Cu.png" />
 
 # Schematic for the right half
-<img width="5846" height="4134" alt="keeb-right" src="Pics/keeb-right.png" />
+<img width="5846" height="4134" alt="keeb-right" src="Pics/keeby-right.png" />
 
 # Schematic for the left half
-<img width="5846" height="4134" alt="keeb-left" src="Pics/keeb-left.png" />
+<img width="5846" height="4134" alt="keeb-left" src="Pics/keeby-left.png" />
 
 # Casing??
 Yup, made the casing in onshape. This is supposed to be 3D printed. You can find the 3D part files in the CAD/PrintParts folder. Here the FullCase is the full 3D model of the casing all parts included. Or you can find 3D models of individual parts in the CAD/PrintParts folder named by part.
@@ -24,7 +24,10 @@ Alternatively, you can view the Onshape design here: https://cad.onshape.com/doc
 <img width="1083" height="637" alt="keeby" src="Pics/keebyv.png" />
 <img width="1083" height="637" alt="keeby" src="Pics/keebyv2.png" />
 
-For detailed view a .step file is in PCB/3dout/keeby.step
+For detailed view the .step files is in PCB/3dout/
+
+# Final Assembled Keyboard
+<img width="1083" height="637" alt="keeby" src="Pics/Keeby\ Assembled.png" />
 
 
 # Detailed BOM of Keeby
