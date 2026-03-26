@@ -27,7 +27,7 @@ Alternatively, you can view the Onshape design here: https://cad.onshape.com/doc
 For detailed view the .step files is in PCB/3dout/
 
 # Final Assembled Keyboard
-<img width="1083" height="637" alt="keeby" src="Pics/Keeby\ Assembled.png" />
+<img width="1083" height="637" alt="keeby" src="Pics/Keeby Assembled.png" />
 
 
 # Detailed BOM of Keeby
